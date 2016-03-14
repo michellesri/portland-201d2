@@ -34,7 +34,6 @@ function printNums() {
   console.log('I want to print a number: ' + num);
 }
 
-// Let the function print
 printNums();
 
 // Get a value, then print it:
@@ -46,7 +45,6 @@ console.log(high_five());
 
 // Nested function call
 console.log(lazyCEO());
-
 
 // Nested function call, with params
 function overworkedCoder_p(iphone8sPlus) {
