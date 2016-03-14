@@ -13,6 +13,8 @@ Invest in your physical setup; pay the price to remove speed limits that would o
 
 > Command line history navigation
 > Command cursor navigation and command editing
+> Drag-n-drop from Finder/file manager into terminal
+> "open [path]" on osx
 
 - Body: oxygen, temperature, humidity, food, water, sleep
 - Body: health, fitness. Oxygen flow to your brain. Frequent breaks (eyes, brain, muscles/joints)
