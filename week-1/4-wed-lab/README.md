@@ -39,7 +39,9 @@ HTML and JavaScript are cleanly written with correct indentation and syntax.
 - Useful and descriptive console.log messages are well written and correctly displaying to the browser console for each question of the guessing game.
 - Add, Commit, Push process is being followed; evident in GitHub that commits are made regularly, and with good commit messages.
 
-# User Stories (Stretch; any may be attempted in any order)
+# User Stories (Stretch; any may be attempted in any order).
+
++1 point extra credit for each of the four items below, for a maximum of 4 total points extra credit:
 
 - As a developer, I want to add a sixth question to my guessing game that takes numeric input, and indicates to the user whether the guess is 'too high' or 'too low', and gives the user multiple opportunities to get the correct answer.
 - As a developer, I want to add a seventh question that accepts multiple possible correct answers that are stored in an array.
