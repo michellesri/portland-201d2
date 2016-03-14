@@ -29,10 +29,11 @@ Test/Debug. Bugs can devastate project timelines. 1:20 productivity ratio
 > Nail down WHAT your app is doing (use dev tools!) vs. what you want it to do.
 > "Be bulletproof all the way." Agile: start VERY small; test and build VERY gradually.
   "Eat lots of small mouthfuls quickly to finish lunch faster."
+> Aside: Apply this to your learning: Write code until you clearly understand the related concepts
 
 > Syntax highlighting
-> Lint: catch errors, format code to be readable (easier to understand & debug)
-- Syntax details, JS statement order, HTML: CSS and script-loading order, parens, scope, are you in the right folder? Save recent edits? Reload the web page? Chose correct filenames?
+> Lint: Catch errors, format code to be readable (easier to understand & debug)
+- Learn to avoid common bugs: syntax details (wrong file extension, wrong tag type, camel case vs underscores vs no separators, etc.), JS statement order, in HTML: CSS and script-loading order, parens, scope, are you in the right folder? Save recent edits? Reload the web page? Chose correct filenames?
 
 Search
 > Learn where to find good resources for refernce and/or help. StackOverflow, Google, Treehouse, Codecademy, etc.
