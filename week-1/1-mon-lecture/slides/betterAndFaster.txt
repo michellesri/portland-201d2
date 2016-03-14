@@ -1,0 +1,50 @@
+How to write higher quality code in less time
+
+It takes blood, sweat, and tears to get really good at coding.
+
+Main idea: INVEST HEAVITLY IN YOURSELF
+
+Invest in your physical setup; pay the price to remove speed limits that would otherwise limit your maximum thinking speed.
+- Chair, monitor height/view angle, posture, wrist angles, HCI (mouse or trackpad? CherryMX Blue or rubber dome?), lighting (color temp, luminance level, glare), sound (too quiet? too noisy?)
+- Hardware bottlenecks - CPU, RAM, network speed
+
+- Backups to prevent lost time on recovery
+> Aliases for safety / prevent lost time on recovery
+
+> Command line history navigation
+> Command cursor navigation and command editing
+
+- Body: oxygen, temperature, humidity, food, water, sleep
+- Body: health, fitness. Oxygen flow to your brain. Frequent breaks (eyes, brain, muscles/joints)
+- Mind: Motivations, goals, fun at work, fun away from work, sleep, defer distractions
+- Self-awareness: Know the point (in effort/exhaustion/time) at which coding more is actually a step backward (adding bugs or deleting needed files, etc).
+
+Low-level speed ups: Huge gains in "hot spot" opimization. Speed up what you do most
+- You type a ton, so type faster -- a LOT faster.
+> Use aliases for frequently used commands.
+> Use keyboard shortcuts to launch/quit apps, and within apps (e.g., block indenting).
+
+Test/Debug. Bugs can devastate project timelines. 1:20 productivity ratio
+> Think BEFORE you code. Discipline: mini-specs, TDD
+> Nail down WHAT your app is doing (use dev tools!) vs. what you want it to do.
+> "Be bulletproof all the way." Agile: start VERY small; test and build VERY gradually.
+  "Eat lots of small mouthfuls quickly to finish lunch faster."
+
+> Syntax highlighting
+> Lint: catch errors, format code to be readable (easier to understand & debug)
+- Syntax details, JS statement order, HTML: CSS and script-loading order, parens, scope, are you in the right folder? Save recent edits? Reload the web page? Chose correct filenames?
+
+Search
+> Learn where to find good resources for refernce and/or help. StackOverflow, Google, Treehouse, Codecademy, etc.
+> Learn how to read man pages.
+
+Collaborate
+> Don't get stuck for more than 15 minutes. Get help. Switch to another topic if you need to wait for help.
+> Pair-coding
+> Look at others' code and experiment with it. "Time-shifted collab"
+
+Code
+> Learn by doing. "Code a lot -> learn a ton."
+> Don't just read others' code. Re-type it, run it, then modify it and run it. Push it 'til it breaks. Every effort will make you more valuable to a future employer.
+- Define metrics of success, and set your bar high. Software is so flexible and complex that there is almost always a way to improve a piece of code, often drastically.
+
