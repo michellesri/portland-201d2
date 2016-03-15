@@ -31,11 +31,9 @@ As a developer, I want to provide five questions to the user, so that they can g
 
 # Technical Requirements
 
-- A new Github repo will be initialized for this assignment (with a README), and cloned to your local machine. Follow the instructions from Tuesday's lab about how to create a new repository.
-- Name this repo about-me and clone it to the root level of your ~/CF/201 directory on your computer.
-- Add an index.html file and an app.js file to your repo. You can use the terminal 'cp' command like we did this morning to bring in existing files that you can then modify to this purpose.
-HTML and JavaScript are cleanly written with correct indentation and syntax.
-- The five questions in the guessing game must require yes/no answers, and user input must accept either y/n or yes/no responses, with either .toUpperCase() or .toLowerCase() used to validate the user input.
+- Create a new branch (call it 'day2' or 'about-me' or some other meaningful name) in the repo you created for labwork.
+- Write clean HTML and JavaScript -- use correct indentation and syntax.
+- Make sure your guessing game questions accept user input that is either y/n or yes/no, with either .toUpperCase() or .toLowerCase() used to validate user input.
 - Useful and descriptive console.log messages are well written and correctly displaying to the browser console for each question of the guessing game.
 - Add, Commit, Push process is being followed; evident in GitHub that commits are made regularly, and with good commit messages.
 
