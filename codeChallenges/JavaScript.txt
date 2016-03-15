@@ -37,5 +37,5 @@ JS-7 (totally optional, more advanced): Write a function that meets the followin
     // Return an array that contains only unique values here
   }
 
-  console.log(getUnique(3, -9, 3, -9, -9));           // [3, -9]
-  console.log(getUnique([1,2], "shoe", true, "shoe"); // [[1,2], "shoe", true]
+  console.log(getUnique(3, -9, 3, -9, -9)); // [3, -9]
+  console.log(getUnique([1,2], "shoe", true, "shoe", true)); // [[1,2], "shoe", true]
