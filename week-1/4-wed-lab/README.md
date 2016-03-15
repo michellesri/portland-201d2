@@ -4,7 +4,7 @@ Week 1, Class 2 (Tuesday)
 
 As we discussed in class today, your assignment will be to create an "About Me" document in HTML, and have that page also provide a guessing game about you to the user.
 
-Use five personalized guessing game questions about you (example: "Did I grow up in South Dakota?"). Your end product will look very much like what we finished with in class today, just extended and customized.
+Use three personalized guessing game questions about you (example: "Did I grow up in South Dakota?"). Your end product will look very much like what we finished with in class today, just extended and customized.
 
 Note that as we progress through the week, new user stories will be added.
 
