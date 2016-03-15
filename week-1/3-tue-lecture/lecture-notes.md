@@ -17,7 +17,6 @@
 * **Review Readings** [90 mins]
 
 **HTML Chapter 2: "Text"**
-
 - p.43: heading tags
 - p.44: paragraph tags
 - p.49: visual editors (WYSIWYG)
