@@ -39,3 +39,7 @@ JS-7 (totally optional, more advanced): Write a function that meets the followin
 
   console.log(getUnique(3, -9, 3, -9, -9)); // [3, -9]
   console.log(getUnique([1,2], "shoe", true, "shoe", true)); // [[1,2], "shoe", true]
+
+JS-8 (intermediate): Create a function that accepts five parameters and prints out all five parameters. Call that function using a single array that contains 5 elements, but "spread" that array into five arguments during the call.
+
+JS-9 (advanced): Same as JS-8, but create an object constructor function and do the same "spread" operation. This is easier in JS version 6, but a bit complex in JS 5.
