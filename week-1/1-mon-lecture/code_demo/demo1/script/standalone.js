@@ -62,7 +62,7 @@ function lazyDirector_p(s) {
 }
 
 function lazyCEO_p(s) {
-  s += ' by 5 pm today'
+  s += ' by 5 pm today';
   return lazyDirector_p(s);
 }
 

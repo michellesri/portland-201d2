@@ -1,0 +1,41 @@
+Code Challenges
+Javascript
+
+JS-1. Write a function that accepts two arrays (of the same length and whose elements are Numbers) as parameters, and returns an array that is the sum of the two input arrays, element-wise.
+
+JS-2. Extend the function to handle boolean input arrays as well, such that if the input arrays' elements are boolean, return an array that contains the logical OR of the two input arrays, element-wise. If the input arrays are Numbers, still compute the sum, element-wise.
+
+JS-3. Extend the function to handle strings such that if the input arrays' elements are Strings, return an array that is the concatenation of the input arrays, element-wise.
+
+See if you can do this with only a text editor and a browser console to test/debug your code. Get to the point where you don't need to look up info on the internet, and don't need to look at code samples to figure out the syntax.
+
+JS-4: Write a function that accepts an array as input and a value, and returns boolean 'true' if the value is in the array, and returns boolean 'false' if the value is not in the array. Write the function so that its search logic relies on a for loop.
+  Example: If the input array is [1, 2, 3] and the input value is 2, your function should return true, but for the same input array if the input value is 99999 (or the string "I like ice cream"), the function should return false.
+
+  function isInArray(myArray, myValue) {
+    // Write logic here
+
+    // return boolean result here
+  }
+  console.log(isInArray([1, 2, 3], 2));       // Should print true
+  console.log(isInArray([1, 2, 3], "frogs")); // Should print false
+
+JS-5: Same as JS-4, but instead of using a "for" loop, use the .indexOf() method that all JavaScript arrays have.
+
+JS-6: This "question" is actually a set of 12 JavaScript exercises at:
+  www.w3resource.com/javascript-exercises/javascript-basic-exercises.php
+
+JS-7 (totally optional, more advanced): Write a function that meets the following requirements:
+  a. Accepts five parameters that can each be of any data type (arguments can even be missing, such as when other code calls your function with fewer than five arguments)
+  b. Returns an array of only the parameter values that are unique. Order of the values doesn't matter
+
+  An example to illustrate the requirements:
+
+  function getUnique(a,b,c,d,e) {
+    // Add logic here
+
+    // Return an array that contains only unique values here
+  }
+
+  console.log(getUnique(3, -9, 3, -9, -9));           // [3, -9]
+  console.log(getUnique([1,2], "shoe", true, "shoe"); // [[1,2], "shoe", true]
