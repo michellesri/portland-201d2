@@ -50,4 +50,3 @@ Code
 > Learn by doing. "Code a lot -> learn a ton."
 > Don't just read others' code. Re-type it, run it, then modify it and run it. Push it 'til it breaks. Every effort will make you more valuable to a future employer.
 - Define metrics of success, and set your bar high. Software is so flexible and complex that there is almost always a way to improve a piece of code, often drastically.
-
