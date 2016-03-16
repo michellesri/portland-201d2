@@ -3,10 +3,20 @@
 * **Labwork overview**
 
   . Validate user input
-
+    - Lower/upper case
+    - Numeric input values
+    
   . Add HTML content
+    - Ordered list
+    - Unordered list
 
-  . Add navigation, images, styling
+  . Javascript
+    - Arrays
+    - Track stats
+    
+  . CSS styling
+
+  . Add navigation, images
 
 * **Review labwork code** [30 mins]
 
