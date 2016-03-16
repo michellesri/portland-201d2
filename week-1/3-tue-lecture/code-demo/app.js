@@ -15,9 +15,11 @@ while (keepAsking) {
   if (userResponse.toLowerCase() === 'n' || userResponse.toUpperCase() === 'NO') {
     alert('Nope, I was actualy born on the moon. I\'ma moonian computer language.');
     keepAsking = false;
+    break;
   } else if (userResponse === 'Y') { // TODO: Make this more robust!
     alert('Nice, I was born on the moon');
     keepAsking = false;
+    break;
   } else {
     alert('Ooops!, you should have given a Y or N, so you loose this round.');
   }

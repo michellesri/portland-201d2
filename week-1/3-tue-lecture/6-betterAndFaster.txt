@@ -21,12 +21,12 @@ Invest in your physical setup; pay the price to remove speed limits that would o
 - Mind: Motivations, goals, fun at work, fun away from work, sleep, defer distractions
 - Self-awareness: Know the point (in effort/exhaustion/time) at which coding more is actually a step backward (adding bugs or deleting needed files, etc).
 
-Low-level speed ups: Huge gains in "hot spot" opimization. Speed up what you do most
+Low-level speed ups: Huge gains in "hot spot" optimization. Speed up what you do most
 - You type a ton, so type faster -- a LOT faster.
 > Use aliases for frequently used commands.
 > Use keyboard shortcuts to launch/quit apps, and within apps (e.g., block indenting).
 
-Test/Debug. Bugs can devstate project timelines. 1:20 productivity ratio
+Test/Debug. Bugs can destroy project timelines. 1:20 productivity ratio
 > Think BEFORE you code. Discipline: mini-specs, TDD
 > Nail down WHAT your app is doing (use dev tools!) vs. what you want it to do.
 > "Be bulletproof all the way." Agile: start VERY small; test and build VERY gradually.
