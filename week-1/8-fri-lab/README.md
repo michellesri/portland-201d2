@@ -41,6 +41,8 @@ Note: Before starting these steps, make sure that both of your repositories are 
 
 - Move logic into functions: Note: depending on the progress made toward stretch goals this week, this may or may not be easily workable. As an instructor or TA for guidance if you are not sure. Yesterday, we learned about functions, and today we'll move the logic for the individual questions into separate functions, and call those functions to initiate the game. In its most basic sense, this is pretty straightforward: 'wrap' the logic and variables for a given question with function someFuncNameYouChoose() { at the beginning and a closing curly brace } at the end. To make the function execute, just call it afterwards: someFuncNameYouChoose(); Take a look at the sample in the repo. After completing this step the game should behave exactly as it did before. a-c-p
 
+-Your questions and answers should be pushed to respective arrays to keep record of them. For example, you could keep an array of successful answers in order to count the game's score. 
+
 - Move the alerts into the DOM: Using the code from class repo as a model, move the alert feedback to the came player into <p> tags that display in the browser window of your new guessing-game.html. a-c-p
 
 - Update the README file: In the README file, add in the names of the driver and navigator and indicate that the code was worked on together. This is basic record-keeping so that you can keep up with how the code has been edited in a user-friendly format. a-c-p
@@ -56,4 +58,6 @@ Note: Before starting these steps, make sure that both of your repositories are 
 
 - The owner of the code (the navigator) then goes to their GitHub repo for the project and accepts the pull request. After that, in terminal on their laptop, while in the game directory, enter the command 'git pull origin master' to retrieve the modified code from GitHub. Now you're ready to deploy your project!
  
-### Deploy: Time to put your project on the intartubez! When everything is finished and ready and synced and you're done, create a new branch in terminal called gh-pages (from the master branch, natch). Then, look in the Settings of your repo on GitHub and scroll down to get the deployment link. You're live!
+### Deploy: Time to put your project on the internet! When everything is finished and ready and synced and you're done, create a new branch in terminal called gh-pages (from the master branch, natch). Then, look in the Settings of your repo on GitHub and scroll down to get the deployment link. You're live!
+
+### *Remember to submit this link on canvas so that your work can be graded*
