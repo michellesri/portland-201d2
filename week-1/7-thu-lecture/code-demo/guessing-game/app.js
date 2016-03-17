@@ -16,7 +16,7 @@ if (response.toLowerCase() === 'n' || response.toUpperCase() === 'NO') {
 } else if (response.toLowerCase() === 'y' || response.toUpperCase() === 'YES') {
   questionOneResponseEL.textContent = 'Sorry, You are wrong!';
 } else {
-  questionOneResponseEL.textContent = 'N/A'; 
+  questionOneResponseEL.textContent = 'N/A';
   alert('Please give a yes or no answer.');
 }
 
