@@ -2,7 +2,7 @@ For this lab we will be adding a few things to the work we've done so far. Use t
 
 ### User Stories (MVP... what you must do as a minimum)
 
-- As a developer, to keep my work organized, I want to make a new Git branch for the development work for each new question I create. I can then merge these branches into my 'day-4' branch (or whatever branch name you pick) on GitHub as each question is finished.
+- As a developer, to keep my work organized, I want to make a new Git branch for today's work (say, 'day-4'), make some changes and git a-c-p. Then I want to create a new branch and add one question, then merge that branches into my 'day-4' branch.
 - As a developer, I want to use thoughtful and descriptive console.log() throughout my code to help test my work and assist with debugging.
 - As a developer, I want to convert some of my appropriate biographical elements into unordered lists, such as my education summary and/or my work experience.
 - As a prospective job seeker, I want to make myself more personable by adding a Top Ten list to the bottom of my About Me page with an ordered list in HTML, for instance, my Top Ten Favorite Movies or my Top Ten Places I Want to Visit, or something along those lines.
