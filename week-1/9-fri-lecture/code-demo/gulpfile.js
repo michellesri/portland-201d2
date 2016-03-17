@@ -3,6 +3,7 @@ var mocha   = require('gulp-mocha');
 var gulp_jshint = require('gulp-jshint');
 
 var js_src   = ['./*.js', './js/*.js', './test/*.js'];
+var html_src = './*.html';
 
 gulp.task('watch-mocha', function() {
     gulp.watch(['test/**', 'index.js'], ['watch-mocha']);
@@ -19,3 +20,12 @@ gulp.task('lint', function() {
         .pipe(gulp_jshint())
         .pipe(gulp_jshint.reporter('default'));
 });
+
+gulp.task('watch', function() {
+    gulp.watch(js_src,   ['lint', 'test']);
+    gulp.watch(html_src, ['test']);
+});
+
+gulp.task('default', ['lint', 'test', 'watch']);
+
+
