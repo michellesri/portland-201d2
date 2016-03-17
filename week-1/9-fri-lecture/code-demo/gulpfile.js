@@ -21,6 +21,11 @@ gulp.task('lint', function() {
         .pipe(gulp_jshint.reporter('default'));
 });
 
+gulp.task('test', function() {
+    return gulp.src('./test/test.js', {read: false})
+        .pipe(gulp_mocha({reporter: 'spec'}));
+});
+
 gulp.task('watch', function() {
     gulp.watch(js_src,   ['lint', 'test']);
     gulp.watch(html_src, ['test']);
