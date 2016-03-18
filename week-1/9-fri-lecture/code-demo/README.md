@@ -1,3 +1,3 @@
 code demo
 ========
-Jake added as contributor
+Don't forget to do "git pull" frequently!
