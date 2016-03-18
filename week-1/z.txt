@@ -1,0 +1,45 @@
+for (var ii=10; ii<40; ii++) {
+  console.log(colors[ii]);
+}
+
+var newColors = colors.slice(10,41);
+
+if (newColors[0] === colors[10]) {
+  // Yes, code in this block will run
+}
+
+function makeCupcakes() {
+
+}
+
+var makeCake = function() {
+  return 'Strawberry cake'; 
+}
+
+var cakeType = makeCake();
+
+var x = 1;
+
+x += 5; // Step by 5
+x--;
+
+x ||= false; // OR with false
+
+
+// x is 2
+
+if (x <= 1) {
+  // this runs
+}
+
+
+for (rowNumber=0; rowNumber < NumRows; rowNumber++) {
+
+  if ((rowNumber % 2) === 1) {
+    myDocElement[rowNumber].style = 'background-color: gray';
+  }
+  else {
+    myDocElement[rowNumber].style = 'background-color: white';
+  }
+
+}

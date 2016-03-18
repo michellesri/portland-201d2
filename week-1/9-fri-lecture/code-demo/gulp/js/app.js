@@ -12,6 +12,25 @@ exports.getQuestion = getQuestion;
  * Example of TDD on a feature related to Week 2's labwork *
  ***********************************************************/
 function addFive(num) {
-  return num + 5;
+  return num + 4;
 }
+
+// if(addFive(0) == 5) {
+//   console.log("test 1 passed!");
+// } else {
+//   console.log("test 1 failed");
+// }
+// if(addFive(100) == 105) {
+//   console.log("test 2 passed!");
+// } else {
+//   console.log("test 2 failed");
+// }
+// if(addFive(11) == 16) {
+//   console.log("test 3 passed!");
+// } else {
+//   console.log("test 3 failed");
+// }
+
+
+
 exports.addFive = addFive;
