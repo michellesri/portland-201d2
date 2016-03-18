@@ -4,17 +4,30 @@ Today in lab you will create a new GitHub repo, solve a lot of little code probl
 
 Here are some things to keep in mind:
 
-* Place no function calls in your code, unless it is inside another function. Everything should be run by hand from the console.
-* You will be recording a lot of information in your README file, so it might be handy to have a Markdown reference handy so that you can make it look nice.
-* Create a new branch for each code problem, and merge that branch into *master* when it is completed. Don't forget to pull the new master branch from GitHub into your local master branch each time.
+* Write tests first in test.js and verify that all tests *fail* because you haven't written app code for the tested features.
+* Write your code as functions in app.js. Be sure to export each function.
+* In app.js, do not call any functions unless the call is from inside another function. This way no app code runs unless it is run manually in the node console or it is run by tests in test.js
+* You will have a lot of information in your README.md file, so you may want to have a Markdown reference handy so you can make your README.md look nice.
+* Create a new branch for each code problem. For each branch, write/test/debug the code problem on that branch, then merge that branch into *master* when it is completed. Don't forget to pull the new master branch from GitHub into your *local* master branch after each merge.
+* Don't add, commit, or push "node_modules/" files. Make sure your .gitignore is set to avoid node_modules/ folders and their contents.
 
 ---
 #### Create and clone a new GitHub repo named lab-feb-15
 You should not need instructions for this by now. Be sure to create it withe a README file, and be sure to put it in the root level of your ~/CF/201 directory.
 
 ---
-#### HTML and JS setup
-Create a index.html file (with all of the standard HTML structure like *doctype* and *title* and *head* and *body*) and put in the same \<body> [code](https://github.com/codefellows/seattle-201d6/blob/master/week-1/class-05/code-samples-for-lab.html) that we used on Friday. Place the content inside the \<script> tags in this document into an app.js file and then get the HTML and JS files connected to one another.
+#### Test environment and web app files setup
+Copy all code-demo/gulp/ files to your new local workspace.
+
+Create an index.html file (with all of the standard HTML structure like *doctype* and *title* and *head* and *body*) and put in the same \<body> [code](https://github.com/codefellows/seattle-201d6/blob/master/week-1/class-05/code-samples-for-lab.html) that we used on Friday. Develop code in js/app.s thats solves the code problems below, then get HTML and JS files connected to one another (use the *script* tag).
+
+From inside your gulp files folder, type this to install node modules required:
+
+  $ npm install
+
+Still inside the same folder, run this to automate your tests:
+
+  $ gulp
 
 ---
 #### Problem 1
