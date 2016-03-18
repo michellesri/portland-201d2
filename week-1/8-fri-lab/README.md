@@ -25,7 +25,7 @@ Note: Before starting these steps, make sure that both of your repositories are 
 
 - Inside of the driver's main work directory on their laptop, make a directory with your partner’s name and then move (cd) into it. From there, enter the command 'git clone the-https-link-you-copied'. That will create a local version of the forked repo on the driver's laptop.
 
-- 'cd' into that directory and enter 'subl .' in the terminal to open all of the files in Sublime Text.
+- 'cd' into that directory and enter 'atom .' in the terminal to open all of the files in Sublime Text.
 
 - Start working on the code!
 
