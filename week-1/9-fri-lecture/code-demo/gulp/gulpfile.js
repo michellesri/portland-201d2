@@ -23,7 +23,7 @@ gulp.task('lint', function() {
 
 gulp.task('test', function() {
     return gulp.src('./test/test.js', {read: false})
-        .pipe(gulp_mocha({reporter: 'spec'}));
+        .pipe(mocha({reporter: 'spec'}));
 });
 
 gulp.task('watch', function() {
