@@ -6,13 +6,15 @@ var question = ['first', 'second', 'third'];
 function getQuestion(index) {
   return (question[index]);
 }
+
+//exports refers to the "var app = require('../js/app');" in our test.js file. In other words its using the app.js as an object whose method is "getQuestion"
 exports.getQuestion = getQuestion;
 
 /***********************************************************
  * Example of TDD on a feature related to Week 2's labwork *
  ***********************************************************/
 function addFive(num) {
-  return num + 4;
+  return num + 5;
 }
 
 // if(addFive(0) == 5) {
@@ -30,7 +32,5 @@ function addFive(num) {
 // } else {
 //   console.log("test 3 failed");
 // }
-
-
 
 exports.addFive = addFive;
