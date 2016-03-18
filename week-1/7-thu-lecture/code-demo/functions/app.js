@@ -6,7 +6,6 @@
 // Functions let you group a series of statements together to perform a specific task.
 // If there are parts of a script that repeat the same task, you can reuse the function.
 
-
 // what is a function declaration vs. function call?
 // a function that will log "hello, world"
 
@@ -23,13 +22,19 @@ sayHello();
 // what are parameters and arguments?
 // parameters are what we call the input varaibles when we declare a function
 // name is a parameter
-function sayGoodBye(name){
-  console.log('good bye, ' + name);
+function sayGoodBye(firstName, lastName){
+  console.log('good bye, ' + firstName + ' ' + lastName);
+  return 555;
 }
 
 // arguments are what we call the input values when we call a function
 // 'friend' is an argument
-sayGoodBye('friend');
+var cat = 'Al';
+var dog = 'She';
+var ret = sayGoodBye(cat, dog);
+console.log('ret = ' + ret);
+var p = Math.sqrt(9);
+console.log(p);
 
 // what is a return value?
 // function with return value
@@ -49,21 +54,42 @@ console.log('ada: ' + ada);
 // Variables that are declared in a funciton are only accesible from within that function.
 // within a function you can allways access variables declared in a parent scope.
 
-// If a variable in a parent scope has ben set before a function call, uses it that function 
+// If a variable in a parent scope has ben set before a function call, uses it that function
 // will have access to it.
 var bpm = 120;          // variable declared in the global scope
-console.log('bpm before slowDown(): ', bpm); 
+console.log('bpm before slowDown(): ', bpm);
 function slowDown(){    // function declared in the global scope
   bpm = bpm - 5;        // variable declared in the scope of the function slowDown
 }
 
 slowDown();             // slowDown is called and bpm will now be 115
-console.log('bpm after slowDown(): ', bpm); 
+console.log('bpm after slowDown(): ', bpm);
 
 // If a variable is declared within the scope of a function no parent scope will be able to
 // access that varaible.
-function gloabalCannotAccessScope(){
-  var topSecret = "My password is 1234"; 
+function globalCannotAccessScope() {
+  var topSecret = 'My password is 1234';
+  console.log('Inside function, topSecret = ' + topSecret);
 }
 
-console.log('topSecret: ' + topSecret); // this will throw an error for topSecret not being defiend
+globalCannotAccessScope();
+
+function getUserAnswer(questionToAsk) {
+//console.log('topSecret: ' + topSecret); // this will throw an error for topSecret not being defiend
+  return prompt(questionToAsk);
+}
+
+var answer = getUserAnswer('How are you?');
+console.log('answer = ' + answer);
+
+//console.log('topSecret: ' + topSecret); // this will throw an error for topSecret not being defiend
+
+var make = 'Ford';
+function changeMake(pMake) {
+  make = 'volkswagen';
+  console.log('Inside changeMake(): make = ' + make);
+}
+
+console.log('global, before call: make=' + make);
+changeMake(make);
+console.log('global, after call: make=' + make);

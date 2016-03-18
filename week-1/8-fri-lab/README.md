@@ -37,11 +37,11 @@ Note: Before starting these steps, make sure that both of your repositories are 
 
 - There are some code examples here in our class repo: https://github.com/codefellows/seattle-201d6/tree/master/week-1/class-05
 
-- Move the guessing game into a separate HTML document: Let's separate the guessing game from the profile page by putting them into interlinked HTML files. You'll see why in the next step. For now, just make the basic HTML shell of a guessing-game.html page (empty <body> and <head> inside of a <html> tag), and put in its body a link back to the profile page: <a href="index.html">My Profile Page (or whatever text you want)</a>. a-c-p
+- Move the guessing game into a separate HTML document: Let's separate the guessing game from the index page by putting them into interlinked HTML file. Make the basic HTML shell of a guessing-game.html page (empty <body> and <head> inside of a <html> tag), and put in its body a link back to the profile page: <a href="index.html">Home (or whatever text you want)</a>. Add a script element at the bottom that includes your guessing game JS file. a-c-p
 
 - Move logic into functions: Note: depending on the progress made toward stretch goals this week, this may or may not be easily workable. As an instructor or TA for guidance if you are not sure. Yesterday, we learned about functions, and today we'll move the logic for the individual questions into separate functions, and call those functions to initiate the game. In its most basic sense, this is pretty straightforward: 'wrap' the logic and variables for a given question with function someFuncNameYouChoose() { at the beginning and a closing curly brace } at the end. To make the function execute, just call it afterwards: someFuncNameYouChoose(); Take a look at the sample in the repo. After completing this step the game should behave exactly as it did before. a-c-p
 
--Your questions and answers should be pushed to respective arrays to keep record of them. For example, you could keep an array of successful answers in order to count the game's score. 
+-Your questions and answers should be moved to respective arrays to keep record of them. For example, you could keep an array of successful answers in order to count the game's score.
 
 - Move the alerts into the DOM: Using the code from class repo as a model, move the alert feedback to the came player into <p> tags that display in the browser window of your new guessing-game.html. a-c-p
 
@@ -57,7 +57,9 @@ Note: Before starting these steps, make sure that both of your repositories are 
 - Follow the remaining steps as described onscreen and as shown here: https://help.github.com/articles/using-pull-requests. These instructions are deliberately vague, to give you practice in reading through instructions and getting guidance from documentation.
 
 - The owner of the code (the navigator) then goes to their GitHub repo for the project and accepts the pull request. After that, in terminal on their laptop, while in the game directory, enter the command 'git pull origin master' to retrieve the modified code from GitHub. Now you're ready to deploy your project!
- 
-### Deploy: Time to put your project on the internet! When everything is finished and ready and synced and you're done, create a new branch in terminal called gh-pages (from the master branch, natch). Then, look in the Settings of your repo on GitHub and scroll down to get the deployment link. You're live!
+
+### Deploy
+
+Time to put your project on the internet! When everything is finished and ready and synced and you're done, create a new branch in terminal called gh-pages (from the master branch, natch). Then, look in the Settings of your repo on GitHub and scroll down to get the deployment link. You're live!
 
 ### *Remember to submit this link on canvas so that your work can be graded*
