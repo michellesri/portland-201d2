@@ -12,12 +12,12 @@ Here are some things to keep in mind:
 * Don't add, commit, or push "node_modules/" files. Make sure your .gitignore is set to avoid node_modules/ folders and their contents.
 
 ---
-#### Create and clone a new GitHub repo named lab-feb-15
+#### Create a new GitHub repo or folder in your repo named lab-feb-15
 You should not need instructions for this by now. Be sure to create it withe a README file, and be sure to put it in the root level of your ~/CF/201 directory.
 
 ---
 #### Test environment and web app files setup
-Copy all code-demo/gulp/ files to your new local workspace.
+Copy all code-demo/gulp/ files to your new local workspace / folder.
 
 Create an index.html file (with all of the standard HTML structure like *doctype* and *title* and *head* and *body*) and put in the same \<body> [code](https://github.com/codefellows/seattle-201d6/blob/master/week-1/class-05/code-samples-for-lab.html) that we used on Friday. Develop code in js/app.s thats solves the code problems below, then get HTML and JS files connected to one another (use the *script* tag).
 
