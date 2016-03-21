@@ -1,25 +1,25 @@
-Today in lab you will create a new GitHub repo, solve a lot of little code problems, and do some pair work in the second half of the morning.
+Today in lab you will create a new GitHub repo or folder and solve several small coding problems. You can code in pairs or solo (your choice), then do some non-coding pair work towards the end of morning lab time.
 
 **Be sure to follow instructions carefully.**
 
 Here are some things to keep in mind:
 
-* Write tests *FIRST* in test.js and verify that all tests *FAIL* because you haven't written app code for the tested features. *Commit your modified test.js and app.js to prove that you wrote tests first!*
-* Write your code as functions in app.js. Export each of your functions, e.g., exports.myfunction = myfunction;
+* Write tests **first** in test.js and verify that all tests **fail** because you haven't written app code for the tested features. Commit your modified test.js and app.js to **prove you wrote your tests first!**
+* Write your code as functions in app.js. Export each of your functions, e.g., exports.myFunction = myFunction;
 * In app.js, do not call any functions unless the call is from inside another function. This way no app code runs unless it is run manually in the node console or it is run by tests in test.js
 * You will have a lot of information in your README.md file, so you may want to have a Markdown reference handy so you can make your README.md look nice.
-* Create a new branch for each code problem. For each branch, write/test/debug the code problem on that branch, then merge that branch into *master* when it is completed. Don't forget to pull the new master branch from GitHub into your *local* master branch after each merge.
-* Don't add, commit, or push "node_modules/" files. Make sure your .gitignore is set to avoid node_modules/ folders and their contents.
+* Create a **new branch** for each code problem (problems 1 thru 6 below). For each branch, write/test/debug the code problem on that branch, then merge that branch into *master* when it is completed. Don't forget to pull the new master branch from GitHub into your *local* master branch after each merge.
+* Don't add, commit, or push "node_modules/" files. Make sure your .gitignore is set to avoid node_modules/ folders and their contents. If you need on this, just ask!
 
 ---
-#### Create a new GitHub repo or folder in your repo named lab-feb-15
-You should not need instructions for this by now. Be sure to create it withe a README file, and be sure to put it in the root level of your ~/CF/201 directory.
+#### Create a new GitHub repo or folder in your repo named lab-mar-21
+You should not need instructions for this by now. Be sure to create a README.md file.
 
 ---
 #### Test environment and web app files setup
-Copy all code-demo/gulp/ files to your new local workspace / folder.
+Copy all code-demo/gulp/ files to a folder in your own local workspace.
 
-Create an index.html file (with all of the standard HTML structure like *doctype* and *title* and *head* and *body*) and put in the same \<body> [code](https://github.com/codefellows/seattle-201d6/blob/master/week-1/class-05/code-samples-for-lab.html) that we used on Friday. Develop code in js/app.s thats solves the code problems below, then get HTML and JS files connected to one another (use the *script* tag).
+Create an index.html file (with all of the standard HTML elements such as *doctype*, *title*, *head*, and *body*) and put in the same \<body> [code](https://github.com/codefellows/seattle-201d6/blob/master/week-1/class-05/code-samples-for-lab.html) that we used on Friday.  Develop code in js/app.s thats solves the code problems below, then get HTML and JS files connected to one another using the *script* tag.
 
 From inside your gulp files folder, type this to install node modules required:
 
@@ -82,9 +82,25 @@ We're now going to put all of this output into the browser window. First, do the
 * As we did on Friday's lab, take your console.log() messages and put those into the \<p> tags in the browser window by using the textContent property.
 
 ---
-# Pair Programming
+# "Pair Programming"
+**(No pair coding, no new code, just comment on forked code, and make pull requests)**
 
-This is pretty basic, just some additional practice on GitHub flow with a partner. Fork and clone each other's repos from today and take a look each other's code. Create a branch called 'comments', and go in to the HTML and JS files and leave a few comments for your partner about their code, like "That's a good variable name" or "Your code is exactly the same as mine" or whatever. Also, put a sentence in the README file indicating that you've reviewed the code in this repo.
+This is pretty basic, just some additional practice on GitHub flow with a partner. Fork and clone each other's repos from today and take a look each other's code. Create a branch called 'comments', and go in to the HTML and JS files and leave a few comments for your partner about their code, like "That's a good variable name" or "Your code here is similar to mine for this feature" or whatever. Also, put a sentence in the README file indicating that you've reviewed the code in this repo.
 
 Next, **a-c-p** your branch and make a pull request (PR) to your partner. Have your partner review the PR, look at the individual comments in the 'Files Changed' tab, and then close your PR *without* accepting it. Be mindful of the notifications you receive from GitHub in this process.
 
+# Submitting Your Work
+
+Please submit two URLs:
+
+1. GitHub URL of the *git commit hash* in your repo where you wrote mocha tests and coded functions for problems 1 thru 6 above.
+
+2. GitHub URL of the *PR* you made in the "Pair Programming" exercise.
+
+And submit these in the text box in Canvas:
+
+3. Did you learn anything from reviewing your partner's code? If so, what?
+
+4. What was the most difficult part of the assignment today?
+
+5. What was the easiest part of the assignment today?
