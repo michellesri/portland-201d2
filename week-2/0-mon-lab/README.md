@@ -19,7 +19,7 @@ You should not need instructions for this by now. Be sure to create a README.md 
 #### Test environment and web app files setup
 Copy all code-demo/gulp/ files to a folder in your own local workspace.
 
-Create an index.html file (with all of the standard HTML elements such as *doctype*, *title*, *head*, and *body*) and put in the same \<body> [code](https://github.com/codefellows/seattle-201d6/blob/master/week-1/class-05/code-samples-for-lab.html) that we used on Friday.  Develop code in js/app.s thats solves the code problems below, then get HTML and JS files connected to one another using the *script* tag.
+Modify gulp/index.html and put in the same \<body> [code](https://github.com/codefellows/seattle-201d6/blob/master/week-1/class-05/code-samples-for-lab.html) that we used on Friday.  Develop code in compute.js that solves the code problems below, then get HTML and JS files connected to one another using the *script* tag. Modify app.js to call functions you declaried in compute.js, then render the results. You can look at the existing index.html to see an example of how to show a function argument and the function's returned value.
 
 From inside your gulp files folder, type this to install node modules required:
 

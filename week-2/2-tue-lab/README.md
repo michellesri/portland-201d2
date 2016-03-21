@@ -31,7 +31,7 @@ The data page has these requirements:
 | 8pm-11pm  | 12  | 31  | 5 | 12 |
 | 11pm-2am  | 5  | 20  | 6 | 11 |   
 
-Create a prototype of the webpage with randomly generated data, constrainied within the boundary values in the table above.
+Create a prototype of the webpage with randomly generated data, constrainied within the boundary values in the table above (e.g., with a min, max of 0 and 4, respectively, the random number can be 0, 1, 2, 3, or 4).
 
 - Jenny plans to have stores in Beaverton, Hillsboro, Downtown, NorthEast, Clackamas, and PDX-airport. Obviously the number of delivery runs must be less than or equal to the number of pizzas sold (e.g., it would not make sense for drivers to deliver 3 pizzas to 10 locations).  For each location, show a list that looks like the following example output in terms of format and the types of data to show:
 
