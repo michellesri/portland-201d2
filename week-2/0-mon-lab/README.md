@@ -82,9 +82,20 @@ We're now going to put all of this output into the browser window. First, do the
 * As we did on Friday's lab, take your console.log() messages and put those into the \<p> tags in the browser window by using the textContent property.
 
 ---
-# Pair Programming
+# "Pair Programming"
+## (No pair coding, no new code, just comment on forked code, and make pull requests)
 
-This is pretty basic, just some additional practice on GitHub flow with a partner. Fork and clone each other's repos from today and take a look each other's code. Create a branch called 'comments', and go in to the HTML and JS files and leave a few comments for your partner about their code, like "That's a good variable name" or "Your code is exactly the same as mine" or whatever. Also, put a sentence in the README file indicating that you've reviewed the code in this repo.
+This is pretty basic, just some additional practice on GitHub flow with a partner. Fork and clone each other's repos from today and take a look each other's code. Create a branch called 'comments', and go in to the HTML and JS files and leave a few comments for your partner about their code, like "That's a good variable name" or "Your code here is similar to mine for this feature" or whatever. Also, put a sentence in the README file indicating that you've reviewed the code in this repo.
 
 Next, **a-c-p** your branch and make a pull request (PR) to your partner. Have your partner review the PR, look at the individual comments in the 'Files Changed' tab, and then close your PR *without* accepting it. Be mindful of the notifications you receive from GitHub in this process.
 
+# Submitting Your Work
+
+Please submit two URLs:
+1. GitHub URL of the *git commit hash* in your repo where you wrote mocha tests and coded functions for problems 1 thru 6 above.
+2. GitHub URL of the *PR* you made in the "Pair Programming" exercise.
+
+And submit these in the text box in Canvas:
+3. Did you learn anything from reviewing your partner's code? If so, what?
+4. What was the most difficult part of the assignment today?
+5. What was the easiest part of the assignment today?
