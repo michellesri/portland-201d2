@@ -3,7 +3,7 @@ var myPara = document.getElementById('myPara');
 var inc = prompt('Enter your income:');
 var t1 = 5000;
 var t2 = 12000;
-
+var t3 = 100000;
 switch (true)
 {
 
