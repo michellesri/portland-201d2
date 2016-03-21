@@ -1,4 +1,4 @@
-Today in lab you will create a new GitHub repo, solve a lot of little code problems, and do some pair work in the second half of the morning.
+Today in lab you will create a new GitHub repo or folder and solve several small coding problems. You can code in pairs or solo (your choice), then do some non-coding pair work towards the end of morning lab time.
 
 **Be sure to follow instructions carefully.**
 
@@ -12,8 +12,8 @@ Here are some things to keep in mind:
 * Don't add, commit, or push "node_modules/" files. Make sure your .gitignore is set to avoid node_modules/ folders and their contents. If you need on this, just ask!
 
 ---
-#### Create a new GitHub repo or folder in your repo named lab-feb-15
-You should not need instructions for this by now. Be sure to create it withe a README file, and be sure to put it in the root level of your ~/CF/201 directory.
+#### Create a new GitHub repo or folder in your repo named lab-mar-21
+You should not need instructions for this by now. Be sure to create a README.md file.
 
 ---
 #### Test environment and web app files setup
@@ -92,10 +92,15 @@ Next, **a-c-p** your branch and make a pull request (PR) to your partner. Have y
 # Submitting Your Work
 
 Please submit two URLs:
+
 1. GitHub URL of the *git commit hash* in your repo where you wrote mocha tests and coded functions for problems 1 thru 6 above.
+
 2. GitHub URL of the *PR* you made in the "Pair Programming" exercise.
 
 And submit these in the text box in Canvas:
+
 3. Did you learn anything from reviewing your partner's code? If so, what?
+
 4. What was the most difficult part of the assignment today?
+
 5. What was the easiest part of the assignment today?
