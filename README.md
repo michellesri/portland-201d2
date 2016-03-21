@@ -1,5 +1,5 @@
 # portland-201d2
-Class repository for Code 201 at the Code Fellows Portland campus, taught by Al She and Jake Herold, starting March 14, 2016
+Class repository for Code 201 at the Code Fellows Portland campus, taught by Al She with Jake Herold and Alex Anderson, starting March 14, 2016
 
 201
 ===
@@ -38,4 +38,3 @@ Class repository for Code 201 at the Code Fellows Portland campus, taught by Al 
  * [7-thu-lecture](/week-3/7-thu-lecture)
  * [8-fri-lab](/week-3/8-fri-lab)
  * [9-fri-lecture](/week-3/9-fri-lecture)
-
