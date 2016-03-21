@@ -83,7 +83,7 @@ We're now going to put all of this output into the browser window. First, do the
 
 ---
 # "Pair Programming"
-## (No pair coding, no new code, just comment on forked code, and make pull requests)
+**(No pair coding, no new code, just comment on forked code, and make pull requests)**
 
 This is pretty basic, just some additional practice on GitHub flow with a partner. Fork and clone each other's repos from today and take a look each other's code. Create a branch called 'comments', and go in to the HTML and JS files and leave a few comments for your partner about their code, like "That's a good variable name" or "Your code here is similar to mine for this feature" or whatever. Also, put a sentence in the README file indicating that you've reviewed the code in this repo.
 
