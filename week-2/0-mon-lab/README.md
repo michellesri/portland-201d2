@@ -65,7 +65,7 @@ Test this function by hand in the console (remember, to do this you'll need to c
 
 ---
 #### Problem 5
-Write a function called **multiplyArray()** that takes in an array of numbers as a single argument and then returns the product of those numbers. Have it console.table() the array and  console.log() the product with a message that exactly follows this example and uses the values that were input into the function:
+Write a function called **multiplyArray()** that takes in an array of numbers as a single argument and then returns the product of those numbers. Have it console.table() the array in app.js and console.log() the product with a message that exactly follows this example and uses the values that were input into the function:
 
 "The numbers 2,3,4 have a product of 20."
 
@@ -75,10 +75,10 @@ Write a function called **multiplyArray()** that takes in an array of numbers as
 #### Problem 6
 We're now going to put all of this output into the browser window. First, do these things to get the page structure ready:
 
-* In the JS file, delete everything but `var pTagOne = document.getElementById('ans-one');`
-* Create four more of these JS statements that have unique variable names and correspond to the other remaining 'ans' tags.
-* In the HTML file, inside of the five remaining \<p> tags with the "ques" IDs, write the first sentence of the five problems above, in this format: Problem 1: Write a function called sum() that takes in two numbers as arguments and then returns the sum of those numbers.
-* As we did on Friday's lab, take your console.log() messages and put those into the \<p> tags in the browser window by using the textContent property.
+* In the HTML file, create \<p> elements with element IDs such as 'question-1', 'answer-1', 'question-2', 'answer-2', and so on, one pair of IDs per problem above.
+* In app.js, create variables that represent those \<p> elements, e.g., `var pQ1 = document.getElementById('question-1');`, etc.
+* Have app.js call functions in compute.js and store functions' results in variables, then use the .textContent property fill in the "question" \<p>'s with the first sentence in each of the five problems above, respectively, using this format: "Problem 1: Write a function called sum() that takes in two numbers as arguments and then returns the sum of those numbers.", etc.
+* Have app.js use the .textContent property fill in the "answer" \<p>'s with the stored function call results.
 
 ---
 # "Pair Programming"
