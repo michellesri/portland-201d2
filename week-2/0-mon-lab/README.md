@@ -75,7 +75,6 @@ Write a function called **multiplyArray()** that takes in an array of numbers as
 #### Problem 6
 We're now going to put all of this output into the browser window. First, do these things to get the page structure ready:
 
-* In the HTML file, delete the \<p> tags for the sixth and seventh questions.
 * In the JS file, delete everything but `var pTagOne = document.getElementById('ans-one');`
 * Create four more of these JS statements that have unique variable names and correspond to the other remaining 'ans' tags.
 * In the HTML file, inside of the five remaining \<p> tags with the "ques" IDs, write the first sentence of the five problems above, in this format: Problem 1: Write a function called sum() that takes in two numbers as arguments and then returns the sum of those numbers.
