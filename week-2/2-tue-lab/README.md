@@ -5,8 +5,6 @@ In lecture, we learned how to model an entity in JavaScript using objects. Now i
 
 * Before writing any code, create a new repository or folder (with a README.md) called "pizza" and do your labs in that repo/folder. Each day this week, you'll work in separate branches. Once you initialize and set up your repo today, switch to a new branch for your work. Branch names can be whatever you want, but we suggest that you use a consistent naming scheme such as 'dayX-[feature]' for the branch name, e.g., Day6-dataModel, Day7-Objects, and so on.
 
-[Submit Your Work](https://canvas.instructure.com/courses/996678/assignments/4420835)
-
 ## Problem Domain
 Jenny owns a chain of pizza stores. Her pizza company, pizza3001, is expanding. With increased business, Jenny knows she needs a better system to help manage expenses and supplies.
 
@@ -69,11 +67,11 @@ Beaverton
 
 # Submitting Your Assignment
 
-In Canvas, submit:
+Submit the following items at https://canvas.instructure.com/courses/1012436/assignments/4488787
 
 1. GitHub URL for your git commit hash
 
-2. Answers to the following questions.
+2. Answers to the following questions:
 
   . How much time did you spend on this assignment?
 
