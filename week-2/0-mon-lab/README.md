@@ -4,8 +4,8 @@ Today in lab you will create a new GitHub repo, solve a lot of little code probl
 
 Here are some things to keep in mind:
 
-* Write tests *FIRST* in test.js and verify that all tests *FAIL* because you haven't written app code for the tested features. *Commit your modified test.js and app.js to prove that you wrote tests first!*
-* Write your code as functions in app.js. Export each of your functions, e.g., exports.myfunction = myfunction;
+* Write tests *FIRST* in test.js and verify that all tests *FAIL* because you haven't written app code for the tested features. _Commit your modified test.js and app.js to prove that you wrote your tests first!_
+* Write your code as functions in app.js. Export each of your functions, e.g., exports.myFunction = myFunction;
 * In app.js, do not call any functions unless the call is from inside another function. This way no app code runs unless it is run manually in the node console or it is run by tests in test.js
 * You will have a lot of information in your README.md file, so you may want to have a Markdown reference handy so you can make your README.md look nice.
 * Create a new branch for each code problem. For each branch, write/test/debug the code problem on that branch, then merge that branch into *master* when it is completed. Don't forget to pull the new master branch from GitHub into your *local* master branch after each merge.
