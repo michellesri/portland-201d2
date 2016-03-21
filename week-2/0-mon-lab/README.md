@@ -57,7 +57,7 @@ Write a function called **sumAndMultiply()** that takes in THREE numbers as argu
 
 ---
 #### Problem 4
-Write a function called **sumArray()** that takes in an array of numbers as a single argument and then returns the sum of those numbers. Have it console.table() the array and  console.log() the sum with a message that exactly follows this example and uses the values that were input into the function:
+Write a function called **sumArray()** that takes in an array of numbers as a single argument and then returns the sum of those numbers. Have app.js console.table() the array and console.log() the sum with a message that exactly follows this example and uses the values that were input into the function:
 
 "2,3,4 was passed in as an array of numbers, and 9 is their sum."
 
@@ -65,7 +65,7 @@ Test this function by hand in the console (remember, to do this you'll need to c
 
 ---
 #### Problem 5
-Write a function called **multiplyArray()** that takes in an array of numbers as a single argument and then returns the product of those numbers. Have it console.table() the array in app.js and console.log() the product with a message that exactly follows this example and uses the values that were input into the function:
+Write a function called **multiplyArray()** that takes in an array of numbers as a single argument and then returns the product of those numbers. Have app.js console.table() the array and console.log() the product with a message that exactly follows this example and uses the values that were input into the function:
 
 "The numbers 2,3,4 have a product of 20."
 
