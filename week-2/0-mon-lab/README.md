@@ -4,7 +4,7 @@ Today in lab you will create a new GitHub repo, solve a lot of little code probl
 
 Here are some things to keep in mind:
 
-* Write tests *FIRST* in test.js and verify that all tests *FAIL* because you haven't written app code for the tested features. _Commit your modified test.js and app.js to prove that you wrote your tests first!_
+* Write tests **FIRST** in test.js and verify that all tests *FAIL* because you haven't written app code for the tested features. Commit your modified test.js and app.js to **prove you wrote your tests first!**
 * Write your code as functions in app.js. Export each of your functions, e.g., exports.myFunction = myFunction;
 * In app.js, do not call any functions unless the call is from inside another function. This way no app code runs unless it is run manually in the node console or it is run by tests in test.js
 * You will have a lot of information in your README.md file, so you may want to have a Markdown reference handy so you can make your README.md look nice.
@@ -17,9 +17,9 @@ You should not need instructions for this by now. Be sure to create it withe a R
 
 ---
 #### Test environment and web app files setup
-Copy all code-demo/gulp/ files to your new local workspace / folder.
+Copy all code-demo/gulp/ files to a folder in your own local workspace.
 
-Create an index.html file (with all of the standard HTML structure like *doctype* and *title* and *head* and *body*) and put in the same \<body> [code](https://github.com/codefellows/seattle-201d6/blob/master/week-1/class-05/code-samples-for-lab.html) that we used on Friday. Develop code in js/app.s thats solves the code problems below, then get HTML and JS files connected to one another (use the *script* tag).
+Create an index.html file (with all of the standard HTML elements such as *doctype*, *title*, *head*, and *body*) and put in the same \<body> [code](https://github.com/codefellows/seattle-201d6/blob/master/week-1/class-05/code-samples-for-lab.html) that we used on Friday.  Develop code in js/app.s thats solves the code problems below, then get HTML and JS files connected to one another using the *script* tag.
 
 From inside your gulp files folder, type this to install node modules required:
 
