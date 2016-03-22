@@ -17,7 +17,6 @@ Monday 3/21
     . Lists, CSS, flow control
     . JS functions
     . TDD
-  . Readings poll
   . Quiz 2 announcement
 
 9:30 am Interactive lecture + regular lab
