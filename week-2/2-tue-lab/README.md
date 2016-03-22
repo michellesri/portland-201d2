@@ -33,12 +33,12 @@ The data page has these requirements:
 
 Create a prototype of the webpage with randomly generated data, constrainied within the boundary values in the table above (e.g., with a min, max of 0 and 4, respectively, the random number can be 0, 1, 2, 3, or 4).
 
-- Jenny plans to have stores in Beaverton, Hillsboro, Downtown, NorthEast, Clackamas, and PDX-airport. Obviously the number of delivery runs must be less than or equal to the number of pizzas sold (e.g., it would not make sense for drivers to deliver 3 pizzas to 10 locations).  For each location, show a list that looks like the following example output in terms of format and the types of data to show:
+- Jenny plans to have stores in Beaverton, Hillsboro, Downtown, NorthEast, Clackamas, and PDX-airport. Obviously the number of delivery runs must be less than or equal to the number of pizzas sold (e.g., it would not make sense for drivers to deliver 3 pizzas to 10 locations).  For each location, show a list that looks like the following example output in terms of format and the types of data to show. Note that your numbers will not be the same as the numbers in the table below since your numbers will be randomly generated.
 
 Beaverton
 - 8:00am 0 pizzas, 0 deliveries -- [ driver not recommended ]
 - 9:00am 4 pizzas, 2 deliveries -- [ drivers recommended: 1 ]
-- 10:00am 15 pizzas, 8 deliveries -- [ drivers recommended: 2 ]
+- 10:00am 3 pizzas, 3 deliveries -- [ drivers recommended: 1 ]
 - 11:00am etc., same kind of thing calculated for each hour
 - 12 noon
 - 1:00pm
