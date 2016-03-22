@@ -19,7 +19,7 @@ You should not need instructions for this by now. Be sure to create a README.md 
 #### Test environment and web app files setup
 Copy all code-demo/gulp/ files to a folder in your own local workspace.
 
-Create an index.html file (with all of the standard HTML elements such as *doctype*, *title*, *head*, and *body*) and put in the same \<body> [code](https://github.com/codefellows/seattle-201d6/blob/master/week-1/class-05/code-samples-for-lab.html) that we used on Friday.  Develop code in js/app.s thats solves the code problems below, then get HTML and JS files connected to one another using the *script* tag.
+Modify gulp/index.html and put in the same \<body> [code](https://github.com/codefellows/seattle-201d6/blob/master/week-1/class-05/code-samples-for-lab.html) that we used on Friday.  Develop code in compute.js that solves the code problems below, then get HTML and JS files connected to one another using the *script* tag. Modify app.js to call functions you declaried in compute.js, then render the results. You can look at the existing index.html to see an example of how to show a function argument and the function's returned value.
 
 From inside your gulp files folder, type this to install node modules required:
 
@@ -57,7 +57,7 @@ Write a function called **sumAndMultiply()** that takes in THREE numbers as argu
 
 ---
 #### Problem 4
-Write a function called **sumArray()** that takes in an array of numbers as a single argument and then returns the sum of those numbers. Have it console.table() the array and  console.log() the sum with a message that exactly follows this example and uses the values that were input into the function:
+Write a function called **sumArray()** that takes in an array of numbers as a single argument and then returns the sum of those numbers. Have app.js console.table() the array and console.log() the sum with a message that exactly follows this example and uses the values that were input into the function:
 
 "2,3,4 was passed in as an array of numbers, and 9 is their sum."
 
@@ -65,7 +65,7 @@ Test this function by hand in the console (remember, to do this you'll need to c
 
 ---
 #### Problem 5
-Write a function called **multiplyArray()** that takes in an array of numbers as a single argument and then returns the product of those numbers. Have it console.table() the array and  console.log() the product with a message that exactly follows this example and uses the values that were input into the function:
+Write a function called **multiplyArray()** that takes in an array of numbers as a single argument and then returns the product of those numbers. Have app.js console.table() the array and console.log() the product with a message that exactly follows this example and uses the values that were input into the function:
 
 "The numbers 2,3,4 have a product of 20."
 
@@ -75,11 +75,10 @@ Write a function called **multiplyArray()** that takes in an array of numbers as
 #### Problem 6
 We're now going to put all of this output into the browser window. First, do these things to get the page structure ready:
 
-* In the HTML file, delete the \<p> tags for the sixth and seventh questions.
-* In the JS file, delete everything but `var pTagOne = document.getElementById('ans-one');`
-* Create four more of these JS statements that have unique variable names and correspond to the other remaining 'ans' tags.
-* In the HTML file, inside of the five remaining \<p> tags with the "ques" IDs, write the first sentence of the five problems above, in this format: Problem 1: Write a function called sum() that takes in two numbers as arguments and then returns the sum of those numbers.
-* As we did on Friday's lab, take your console.log() messages and put those into the \<p> tags in the browser window by using the textContent property.
+* In the HTML file, create \<p> elements with element IDs such as 'question-1', 'answer-1', 'question-2', 'answer-2', and so on, one pair of IDs per problem above.
+* In app.js, create variables that represent those \<p> elements, e.g., `var pQ1 = document.getElementById('question-1');`, etc.
+* Have app.js call functions in compute.js and store functions' results in variables, then use the .textContent property fill in the "question" \<p>'s with the first sentence in each of the five problems above, respectively, using this format: "Problem 1: Write a function called sum() that takes in two numbers as arguments and then returns the sum of those numbers.", etc.
+* Have app.js use the .textContent property fill in the "answer" \<p>'s with the stored function call results.
 
 ---
 # "Pair Programming"
