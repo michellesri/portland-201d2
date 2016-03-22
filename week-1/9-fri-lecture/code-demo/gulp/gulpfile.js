@@ -17,7 +17,7 @@ gulp.task('test', function() {
 });
 
 gulp.task('watch', function() {
-  gulp.watch(js_src,   ['lint', 'test']);
+  gulp.watch(js_src, ['lint', 'test']);
   gulp.watch(html_src, ['test']);
 });
 
