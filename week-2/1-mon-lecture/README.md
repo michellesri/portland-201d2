@@ -23,11 +23,5 @@ Monday 3/21
   . Step-by-step type-along: mocha tests and web app functions, 2 x 1 point. (30 min)
   . Mocha tests and web app functions, main labwork, 20 points
 
-1:00 pm Lecture
-  . Objects
-    . Definition / concepts
-    . Notation
-    . Context (this), p. 115
-    . [typo in title on p. 119]
-  . DOM
-    . Students draw DOM tree from index.html
+1 pm Demo
+  . Students draw DOM tree from a given index.html, then modify DOM tree and update index.html
