@@ -1,3 +1,5 @@
+                              Tuesday p.m. Lecture
+
 A. Code Review: Functions 1 thru 5, PR or in-line comments
 
 B. Objects
@@ -20,8 +22,7 @@ D. Domain Modeling
 . Challenges of modeling
 . Benefits of creating good models
 
-// Moved to Wed p.m. lecture:
 E. Wed Labwork Preview
-. Object constructors
 . Tables
+. Object constructors
 . Per-store "min/max" marketing info
