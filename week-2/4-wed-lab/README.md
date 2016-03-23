@@ -37,7 +37,7 @@ Submit the following items at https://canvas.instructure.com/courses/1012436/ass
 
 ## New Store Data!
 
-### Ballard
+### Beaverton
 
 | Time  | Min Pizza/hr  | Max Pizza/hr | Min Delivery/hr | Max Delivery/hr  |
 |---|---|---|---|---|
@@ -48,7 +48,7 @@ Submit the following items at https://canvas.instructure.com/courses/1012436/ass
 | 8pm-11pm  | 12  | 31  | 5 | 12 |
 | 11pm-2am  | 5  | 20  | 6 | 11 |   
 
-###First Hill
+###Hillsboro
 
 | Time  | Min Pizza/hr  | Max Pizza/hr | Min Delivery/hr | Max Delivery/hr  |
 |---|---|---|---|---|
@@ -59,7 +59,7 @@ Submit the following items at https://canvas.instructure.com/courses/1012436/ass
 | 8pm-11pm  | 1  | 3  | 5 | 12 |
 | 11pm-2am  | 8  | 20  | 6 | 16 |
 
-###The International District
+###Downtown
 
 | Time  | Min Pizza/hr  | Max Pizza/hr | Min Delivery/hr | Max Delivery/hr  |
 |---|---|---|---|---|
@@ -70,7 +70,7 @@ Submit the following items at https://canvas.instructure.com/courses/1012436/ass
 | 8pm-11pm  | 8  | 22  | 7 | 15 |
 | 11pm-2am  | 0  | 2  | 2 | 8 |
 
-###South Lake Union
+###North East
 
 | Time  | Min Pizza/hr  | Max Pizza/hr | Min Delivery/hr | Max Delivery/hr  |
 |---|---|---|---|---|
@@ -81,7 +81,7 @@ Submit the following items at https://canvas.instructure.com/courses/1012436/ass
 | 8pm-11pm  | 22  | 36  | 5 | 22 |
 | 11pm-2am  | 5  | 21  | 16 | 31 |
 
-###Georgetown
+###Clackamas
 
 | Time  | Min Pizza/hr  | Max Pizza/hr | Min Delivery/hr | Max Delivery/hr  |
 |---|---|---|---|---|
@@ -92,7 +92,7 @@ Submit the following items at https://canvas.instructure.com/courses/1012436/ass
 | 8pm-11pm  | 22  | 41  | 15 | 42 |
 | 11pm-2am  | 15  | 20  | 6 | 21 |
 
-###Ravenna
+###PDX Airport
 
 | Time  | Min Pizza/hr  | Max Pizza/hr | Min Delivery/hr | Max Delivery/hr  |
 |---|---|---|---|---|
