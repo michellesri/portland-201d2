@@ -32,8 +32,14 @@
 ---
 
 <a id="code"></a>
-### Live code demo
+### Live demo of tools and code
 
-This is to help you prepare for labwork, and also to show some features in REPL and Chrome Developer Tools.
+- Zoom.us group video call demo
+- Add table, two rows, cells
+- Remove cell, row, table
+- Style table cell: border width/style/color, margin, padding
+- CSS display vs. visibility
+- Chrome's JavaScript debugger
+- Labwork prep: Review assignment, demo of working web app
 
 [-top-](#top)
