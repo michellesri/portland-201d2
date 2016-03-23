@@ -1,4 +1,4 @@
-## Updated user stories for Wednesday morning's lab
+## Updated user stories for Thursday morning's lab
 
 Summary: You'll render the output in a browser using **tables** rather than lists, you'll use **constructor** functions to re-organize and reduce your code, and now you have **distinct sales data** (min and max values) that is different for each location, at the bottom of this document.
 
