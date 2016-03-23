@@ -1,27 +1,39 @@
 ## Updated user stories for Wednesday morning's lab
 
-*(The basics of the assignment: you're going to render the output to the browser window in a table rather than in lists. And, you'll use your new skills in constructor functions to reorganize and reduce your code. Oh yeah... you now have distinct sales data for each location, at the bottom of this document.)*
+Summary: You'll render the output in a browser using *tables* rather than lists. And you'll use constructor functions to re-organize and reduce your code.  Also, you now have **distinct sales data** for each location, at the bottom of this document.
 
 ### User Stories (MVP)
- - As a user, I want a webpage that displays individual store data for pizza3001, so that I can be informed about how to run my business
- - As a developer, I want to use object oriented programming to build this site, so that the site will be more effective and the code will be easier to read and understand.
- - As a user, I want a functional, well organized webpage that displays my data in a user friendly fashion
- - As a user, I want my data broken out in a logical fashion so that I can make more informed decision about my inventory supply and need for delivery drivers
- - As a user, I want my data compiled in place so that I can see my product needs as business as a whole
- - As a developer, I want to implement a constructor function, so that I can reuse code and eliminate much of the duplication in my JavaScript
- - As a user, I want pizza sales data represented in tables rather than lists
+- As a user, I want a webpage that displays individual store data for pizza3001, so that I can monitor each location.
+- As a user, I want my data broken out in a logical fashion so that I can make more informed decision about my inventory supply and need for delivery drivers.
+- As a user, I want my data summarized so I can monitor the health of my business -- total weekly sales per store (e.g., "The downtown store sold NNNN pizzas last week, the Clackamas store sold MMMM pizzas last week, etc.", and total weekly sales per hour across all stores (i.e., to find a total for the "5pm to 6pm" time slot, add together the number of pizzas sold between 5pm and 6pm for each store, and do this for each time slot).
+- As a user, I want pizza sales data shown in tables rather than lists.
+- As a user, I want a functional, well organized webpage that displays my data in a user friendly fashion.
+- As a developer, I want to use object oriented programming to build this site, so that the site will be more effective and the code will be easier to read and understand.
+- As a developer, I want to implement a *constructor* function, so that I can re-use code and eliminate much redundancy in my JavaScript.
 
 ### Technical Requirements
- - New repository properly set up with scaffolding and README, and cloned to local machine
- - Working on a non-master branch, with regular commit history
- - Main page meets requirements of the problem domain
- - Stores are correctly rendering into a table to the data page
- - Good use of a constructor function; style and syntax are correctly implemented
-- Duplicate code has been removed and DRY principles are evident
-- Working on a non-master branch for the day (at a minimum), with regular commit history
+- New git branch(es) for this assignment with regular commit history.
+- Main page meets requirements of the problem domain.
+- Store data are correctly rendered in <table> elements in the data page.
+- Good use of a constructor function; style and syntax are correctly implemented.
+- Duplicate code has been removed and DRY principles are evident.
 
 ### User Stories (Stretch)
- - As a user, I want to be able to add a new store to my webpage, so that I have the ability to work independently of my developer. This is a LARGE HUGE BIG stretch goal. There will be Forms and Events involved, which you are welcome to read ahead on and try to implement. We're not going to cover these in class until Thursday.
+ - As a user, I want to be able to add a new store to my webpage, so that I have the ability to work independently of my developer. This is a LARGE HUGE BIG (did we say not small?) stretch goal. There will be Forms and Events involved, which you are welcome to read ahead on and try to implement. We won't cover these in lecture until Thursday.
+
+# Submit
+
+Submit the following items at https://canvas.instructure.com/courses/1012436/assignments/4488788
+
+- GitHub URL for your git commit hash
+
+- Answers to the following questions:
+
+. How much time did you spend on this assignment?
+
+. How did this go, overall?
+
+. What observations or questions do you have about what you've learned so far?
 
 ## New Store Data!
 
