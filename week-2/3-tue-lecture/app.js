@@ -11,3 +11,7 @@ addLi ('myList','bowl');
 addLi ('myList', 'pizza');
 addLi ('listTwo','elephant');
 addLi ('listTwo','giraffe');
+
+var removeEl = document.getElementById('pRemove');
+var containerEl = removeEl.parentNode;
+containerEl.removeChild(removeEl);
