@@ -1,6 +1,6 @@
 ## Updated user stories for Wednesday morning's lab
 
-Summary: You'll render the output in a browser using *tables* rather than lists. And you'll use constructor functions to re-organize and reduce your code.  Also, you now have **distinct sales data** for each location, at the bottom of this document.
+Summary: You'll render the output in a browser using **tables** rather than lists, you'll use constructor functions to re-organize and reduce your code, and now you have **distinct sales data** (min and max values) that is different for each location, at the bottom of this document.
 
 ### User Stories (MVP)
 - As a user, I want a webpage that displays individual store data for pizza3001, so that I can monitor each location.
