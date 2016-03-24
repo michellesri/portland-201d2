@@ -16,6 +16,8 @@ To get extra credit, the code in your repo should satisfy these requirements:
 - The grader should be able to do "npm install; gulp" to run your tests.
 - All tests must pass.
 
+If you submit your work without tests, you may add tests to your repo and re-submit this assignment up to one week later for a chance to earn the extra credit point.
+
 ## Problem Domain
 Jenny owns a chain of pizza stores. Her pizza company, pizza3001, is expanding. With increased business, Jenny knows she needs a better system to help manage expenses and supplies.
 
