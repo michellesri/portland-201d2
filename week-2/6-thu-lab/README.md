@@ -2,6 +2,19 @@
 
 Summary: You'll render the output in a browser using **tables** rather than lists, you'll use **constructor** functions to re-organize and reduce your code, and now you have **distinct sales data** (min and max values) that is different for each location, at the bottom of this document.
 
+## Extra Credit for TDD
+
+For 1 point extra credit, write tests that use gulp and mocha to verify at least three functions in your web app, and write at least four tests for each function - *two* tests that pass when the function works as expected, and *two* tests that passes when your function avoids incorrect behavior.
+
+For example, suppose you have a function that concatentates two strings and returns the result as a string. One test can send 'hello' and ' world' to it, and expects 'hello world' to be returned. Another test can verify that the return value is not a number.
+
+To get extra credit, the code in your repo should satisfy these requirements:
+- Do not commit or push your node_modules folder or files (too much clutter otherwise!).
+- The grader should be able to do "npm install; gulp" to run your tests.
+- All of your tests must pass.
+
+If you submit your work without tests, you may add tests to your repo and re-submit this assignment up to one week later for a chance to earn the extra credit point.
+
 ### User Stories (MVP)
 - As a user, I want a webpage that displays individual store data for pizza3001, so that I can monitor each location.
 - As a user, I want my data broken out in a logical fashion so that I can make more informed decision about my inventory supply and need for delivery drivers.
