@@ -11,7 +11,14 @@
 ---
 # Code Review
 ---
-# Live code
+# Live code / tools demo
+
+- Students built app from scratch
+  - Text area
+  - Button
+  - Event handler
+  - Get text area content
+  - Create new \<li> element, fill it with user text, and append to DOM
 
 More Chrome Developer Tools
 - Review Source/breakpoints
