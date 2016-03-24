@@ -11,6 +11,11 @@ For 1 point extra credit, write tests that use gulp and mocha to verify at least
 
 For example, suppose you have a function that concatentates two strings and returns the result as a string. One test can send 'hello' and ' world' to it, and expects 'hello world' to be returned. Another test can verify that the return value is not a number.
 
+To get extra credit, the code in your repo should satisfy these requirements:
+- Do not commit or push your node_modules folder or files (too much clutter otherwise!).
+- The grader should be able to do "npm install; gulp" to run your tests.
+- All tests must pass.
+
 ## Problem Domain
 Jenny owns a chain of pizza stores. Her pizza company, pizza3001, is expanding. With increased business, Jenny knows she needs a better system to help manage expenses and supplies.
 
