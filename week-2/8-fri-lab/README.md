@@ -15,7 +15,7 @@ Style your app and make it look more realistic - add store addresses and hours. 
 
 For **1 point extra credit**, write tests that use gulp and mocha to verify at least three functions in your web app, and write at least four tests for each function - *two* tests that pass when the function works as expected, and *two* tests that passes when your function avoids incorrect behavior.
 
-For example, suppose you have a function that concatentates two strings and returns the result as a string. One test can send 'hello' and ' world' to it, and expects 'hello world' to be returned. Another test can verify that the return value is not a number.
+For example, suppose you have a function that concatentates two strings and returns the result as a string. One test can send 'I like the number ' and '2' to it, and expects 'I like the number 2' returned, and another test can send empty strings to it and expects an empty string back. Another test can verify that the return value is a string, and that sending two numbers to the function doesn't result in a number returned.
 
 To get extra credit, the code in your repo should satisfy these requirements:
 - Do not commit or push your node_modules folder or files (too much clutter otherwise!).
