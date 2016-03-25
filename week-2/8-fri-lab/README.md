@@ -34,6 +34,7 @@ To get extra credit, the code in your repo should satisfy these requirements:
 
 # Submitting
 You can submit your assignment here: https://canvas.instructure.com/courses/1012436/assignments/4488802
+
 Please submit these items:
 - URL of git commit hash
 - Deploy your finished app to gh_pages so you can show off your app to family and friends; you may want to list the deployment URL in your portfolio. Get help on deployment if you need it. Submit the URL of your deployed app.
