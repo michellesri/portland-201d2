@@ -3,17 +3,13 @@
 
 **Pair coding -- Jake & Alex to assign pairs**
 
-Extent your web app to include a form where the pizza chain owner can enter new
-store info. The new info should cause your web app to dynamically update the
-sales data page to show data for the new store in addition to the tables your
-current app already shows. The manager should be able to add as many stores as
-he/she would like.
+Extend your web app to include a form where the pizza chain owner can enter new store info. The new info should cause your web app to dynamically update the sales data page to show data for the new store in addition to the tables your current app already shows. The manager should be able to add as many stores as he/she would like.
 
-Don't forget that your summary stats (total per hour, total per store) needs tb be updated dynamically (refreshed) to take into account the new store.
+Don't forget that your summary stats (total per hour, total per store) needs to be **dynamically updated** (refreshed) to take into account the new store.
 
-Style your app and make it look more realistic - add store addresses and hours.Use various colors, borders, layout, fonts, etc.
+Style your app and make it look more realistic - add store addresses and hours. Tweak colors, borders (thickness, style, color, rounded corners), layout (position, margins, padding), fonts, opacity, etc.
 
-**+1 extra credit** if you add embedded google maps that show each store's location.
+**+1 extra credit** if you embed google maps that show each store's location.
 
 ## Extra Credit for TDD
 
