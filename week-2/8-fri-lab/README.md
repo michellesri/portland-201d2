@@ -16,6 +16,7 @@ Minimum requirements for styling:
 - Draw at least one visible border and set its color, thickness, and border-radius.
 - Change at least one element whose default display type is "block", and make its display type "inline" and put it next to at least one other element.
 - Change at least one element whose default display type is "inline", and make its display type "block".
+- If you don't have enough "spare elements" in your page to make all of these styling changes, feel free to add elements to your page (in HTML or dynamically in JS) so that you can apply these style changes to them.
 
 **+1 extra credit** if you embed google maps that show each store's location.
 
