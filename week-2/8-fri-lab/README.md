@@ -8,8 +8,17 @@ Extend your web app to include a form (on the sales data page) where the pizza c
 Don't forget that your summary stats (total per hour, total per store) needs to be **dynamically updated** (refreshed) to take into account the new store.
 
 Style your app and make it look more realistic - add store addresses and hours. Tweak colors, borders (thickness, style, color, rounded corners), layout (position, margins, padding), fonts, opacity, etc.
+Minimum requirements for styling:
+- Create and use a CSS file. Do not use <style> or inline styling.
+- Use at least one font from a CDN (such as a Google font).
+- Change the default position, margin, padding, color, background-color, and opacity of at least one element.
+- Draw at least one visible border and set its color, thickness, and border-radius.
+- Change at least one element whose default display type is "block", and make its display type "inline" and put it next to at least one other element.
+- Change at least one element whose default display type is "inline", and make its display type "block".
 
 **+1 extra credit** if you embed google maps that show each store's location.
+**+1 extra credit** for using CSS3 flexbox features.
+**+1 extra credit** for using a 3rd party layout system such as unsemantic or bootstrap.
 
 ## Extra Credit for TDD
 
