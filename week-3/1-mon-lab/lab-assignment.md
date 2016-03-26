@@ -1,4 +1,4 @@
-#<span style="color:red">Preview version</span>
+#[Preview version. Official version to be posted 12 noon on Sunday March 27, 2016.]
 
 # Paired lab: Friday, 19 Feb 2016
 ## Create a webpage from a provided design comp
