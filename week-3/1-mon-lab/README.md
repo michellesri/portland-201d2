@@ -1,3 +1,4 @@
+# [Preview version. Official version to be posted by 12 noon on Sunday, March 27, 2016.]
 
 # Paired lab: 
 ## Create a webpage from a provided design comp
