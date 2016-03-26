@@ -1,4 +1,4 @@
-# <span style="color:red">Preview version</span>
+#<span style="color:red">Preview version</span>
 
 # Paired lab: Friday, 19 Feb 2016
 ## Create a webpage from a provided design comp
