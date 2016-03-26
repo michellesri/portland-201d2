@@ -44,4 +44,15 @@ OPTIONAL: Add some JavaScript functionality! Get creative, but make sure the sty
 
 **Submit your work:**
 
-Use the link in Canvas at [https://canvas.instructure.com/courses/996678/assignments/4433196]() to submit your work.
+Use Canvas at [https://canvas.instructure.com/courses/996678/assignments/4433196]() to submit your work.
+
+1) Submit a link to the repo for this assignment (this repo will be on either your or your partner's GitHub, which is fine)
+
+2) Indicate who your partner/partners was/were ("I was paired with Peter Griffin")
+
+3) Add comments to your Canvas submission with answers to the following questions.
+
+How was the pair/group component of this project overall?
+In what parts of the project did you contribute the most?
+What did you learn from your partner? What were you able to teach?
+What observations or questions do you have about what you've learned?
