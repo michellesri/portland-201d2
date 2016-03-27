@@ -45,6 +45,7 @@ Use CSS to style the page to replicate every visual feature shown in the comp im
 OPTIONAL: Add some JS functionality! Get creative, but make sure all your CSS and HTML code is done before adding JS.
 
 [**+0.5 Extra Credit per item below**] Using CSS only:
+
 1. Fade in the page when it is first loaded.
 - Slide in the footer.
 - Highlight at least one section of the page based on the mouse-over (hover) event
