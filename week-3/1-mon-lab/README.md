@@ -1,4 +1,4 @@
-# Paired lab: Friday, 19 Feb 2016
+# Paired lab: Mon. 2016.Mar.28
 
 ## Create a webpage from a design comprehensive
 
