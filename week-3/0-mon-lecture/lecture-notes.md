@@ -40,9 +40,3 @@
 - pp.213-16: HTML5 video capabilities
 - p.217: Adding audio to web pages
 - pp.219-20: HTML5 audio capabilities
-
----
-
-### Live code
-Chrome Developer Tools.
-d
