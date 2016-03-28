@@ -21,7 +21,7 @@ You are also responsible for the look and feel of the app, so don't forget a cus
 
 Part of your assignment today is to write your own user stories. Be sure to consider the multiple roles involved: the marketing research team, the developer, and the focus group participant who will be using the application. DO THIS STEP FIRST. The commit logs in your repo will have a first couple of commits for the scaffolding process, but next you should have a 'user stories' commit that is in place before any code is written.
 
-## Goals to complete by the end of lab Tuesday morning
+## Goals to complete by the end of Tuesday
 
 - Create a new repo for this weekly project called **bus-mall** at the root level of your *~/CF/201* directory.
 - Scaffold your repo with the usual README, CSS, JS, and HTML files, plus a *img/* directory.
