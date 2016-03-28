@@ -36,4 +36,9 @@ Upon receiving a click, three new random images need to be displayed.
 
 To do this, you'll want a constructor function that creates an object associated with each image, and has properties for the name of the image, its filepath, the number of times it has been shown, and the number of times it has been clicked.
 
-### *Remember to submit this link on canvas so that your work can be graded*
+# Submitting Your Assignment
+
+- Submit the GitHub URL for your commit hash.
+- Add a comment to this Canvas submission with answers to the following questions.
+ - How did this go, overall?
+ - What observations or questions do you have about what you've learned so far?
