@@ -2,7 +2,7 @@
              Problem 1
 ************************************/
 
-var prob1 = document.getElementById('problem1');
+var prob1 = document.getElementsById('problem1');
 prob1.innerHTML = "Hello";
 
 /************************************
