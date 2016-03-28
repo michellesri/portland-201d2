@@ -1,8 +1,5 @@
-# Gulp Framework
-Basic Gulp framework for Code Fellows 201
+### Super Buggy Code Challenge!
 
-If you run
+If you're reading this it means that this project has escaped un-de-bugged. Please Remove all errors so that the ```<p>```  output matches the ```<h1>``` target in the html as ASAP as possible. Document your errors and bugs that you find, and make a list of what you did to fix it. Make thorough comments, and submit a link to a forked version of this folder to get +1 Extra Credit point per bug (up to 10pts.)
 
-``npm install``
-
-while in this file, you'll see it download all needed node_module's. Remember to add "/node_modules/" to your global ".gitignore" file if you haven't already (this project includes it already). If you don't, it will commit 9000+ files to your github and take roughly *100,000* years to finish.
+(Hint: moving things around will be a main help. You should only need to change//add a few variable names, function calls, or other content-specific issues.)
