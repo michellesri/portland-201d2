@@ -46,8 +46,9 @@ Use CSS to style the page to replicate every visual feature shown in the comp im
 OPTIONAL: Add some JS functionality! Get creative, but make sure all your CSS and HTML code is done before adding JS.
 
 [**+0.5 Extra Credit per item below**] Use CSS only to implement the following features.
+
 1. Use a PNG file as a border image to replicate the patterned gray bar near the top of the page.
-2. Use an SVG file to replicate the patterned gray bar near the top of the page (see https://bocoup.com/weblog/using-svg-patterns-as-fills as a possible method).
+- Use an SVG file to replicate the patterned gray bar near the top of the page (see https://bocoup.com/weblog/using-svg-patterns-as-fills as a possible method).
 - Fade in the page when it is first loaded.
 - Slide in the footer.
 - Highlight at least one section of the page based on the mouse-over (hover) event.
