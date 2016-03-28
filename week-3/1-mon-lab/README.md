@@ -13,7 +13,6 @@ In this paired project you may choose to do all of your team's work on one perso
 If you want to do simultaneous coding on both computers, you can use one of the following two methods:
 
 1. "Fork/PR": Have one person set up a GitHub repo, and then the other person can fork (on GitHub) and clone (using the terminal on a laptop) that repo. This is the way open source is often developed, where a repo's owner decides which features get merged into his/her app. Use pull requests to merge changes into the main repo.
-
 - "Collaborate": Or, as an alternative, have one person set up a repo, then add the partner as a collaborator (use the 'Settings' tab in GitHub to add a collaborator). In this setup, each person has equal privileges to push and merge and manage that repo.  This is the way teams in the course will work during Project Week, so this alternative is a good way to start getting comfortable working together as collaborators.
 
 If you choose one of these two alternatives, be sure to do frequent merges. In #1, make frequent pull requests and merges. In #2, do pull-merge-resolve-push cycles frequently. To avoid merge conflicts, do your best to not work on the same lines of code in the same file(s) at the same time; do good planning/re-planning, and use frequent and timely communication.
@@ -25,6 +24,8 @@ Create a new repo. Decide whether you'll use the Nav/Driver, Fork/PR, or Collabo
 **Assignment Overview**
 
 The assets (files such as images) are in **lab-assets** sub-folder. Copy all of the assets **except** "\_0\_PREVIEW.jpg" to your workspace. But print or open "\_0\_PREVIEW.jpg" so you can use it as a reference for what your page should finally look like. You may want to print a hard copy of the comp and write notes on it to identify image asset filenames and layout locations, elements you need to code in HTML, and styles you need to code in CSS.
+
+NOTE: The full-width gray bar near the top of the page contains a pattern. For this assignment, you can just implement a solid gray bar, but if you implement a visually similar pattern, you'll get extra credit (see below for two options).
 
 Suggestion: Set up your work directory like this:
 * index.html
@@ -44,14 +45,20 @@ Use CSS to style the page to replicate every visual feature shown in the comp im
 
 OPTIONAL: Add some JS functionality! Get creative, but make sure all your CSS and HTML code is done before adding JS.
 
-[**+0.5 Extra Credit per item below**] Using CSS only:
+[**+0.5 Extra Credit per item below**] Use CSS only to implement the following features.
 
-1. Fade in the page when it is first loaded.
+1. Use a PNG file as a border image to replicate the patterned gray bar near the top of the page.
+- Use an SVG file to replicate the patterned gray bar near the top of the page (see https://bocoup.com/weblog/using-svg-patterns-as-fills as a possible method).
+- Fade in the page when it is first loaded.
 - Slide in the footer.
-- Highlight at least one section of the page based on the mouse-over (hover) event
-- On mouse hover on any of the social media icons, make the icon 50% larger
+- Highlight at least one section of the page based on the mouse-over (hover) event.
+- On mouse hover on any of the social media icons, make the icon 50% larger.
 - Extend #4 such that the social media icon grows smoothly to its larger size using CSS transitions.
 - Extend #4 such that each icon rotates 360 degrees on mouse hover.
+
+[**+0.5 Extra Credit per item below**] Use JS without using any CSS transitions:
+- Slide in the set of social media icons. Hint: Use setInterval() to set a DOM element attribute(s) such as margin.
+- Include a &lt;video&gt; element that plays a video file, and verify the video plays OK in Chrome, another browser, and a mobile browser.
 
 ---
 
