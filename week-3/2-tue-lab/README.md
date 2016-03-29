@@ -1,44 +1,52 @@
-# ==> Preview Version <==
-
-This is a preview. The official version will be released by late Mon 3/28.
-
-## New week, new project!
 # BusMall
+## New week, new project!
 
-You're hired by a startup named BusMall, whose product is similar to the SkyMall catalog found in airplane seatback pockets -- a catalog of assorted high-markup products provided to a captive audience seeking a mental escape from the drudgery of travel and nausea induced by jet fuel fumes. But in this case, BusMall catalogs are placed on Portland transit system buses... whose overall travel times are now comparable to cross-country flights, after all.
+You're hired by a startup named BusMall, whose product is similar to the SkyMall catalog found in airplane seatback pockets, a catalog of assorted high-markup products provided to a captive audience seeking a mental escape from the drudgery of travel and nausea induced by jet fuel fumes. But in this case, BusMall catalogs are placed on Portland transit system buses (whose overall travel times are now comparable to cross-country flights, after all...).
 
-Since catalogs are expensive to print and distribute, and the products cost money to make and warehouse, and BusMall is a lean startup that needs to carefully watch its expenditures, BusMall wants to feature only the items in its catalog that are the most likely to sell. This means that BusMall wants to do market analysis on proposed products to test their potential customer interest... before actually putting them into the catalog and getting the manufacturing wheels in motion.
+Catalogs are expensive to print and distribute, products cost resources to make and store, and BusMall is a lean startup that carefully watches expenses, so it will feature only products in its catalog that are likely to sell well. Thus BusMall will do market analysis on proposed products to gauge consumer interest before actually listing them in its catalog.
 
-To make this market analysis maximally effective, BusMall wants you to build an app that displays potential products to individuals in focus groups (three products at a time, side-by-side-by-side, so you'll need to manage the size and the aspect ratio of the images and perhaps edit them a bit; Mac users can do this in Preview, believe it or not, plus there are lots of online tools. Then have the group members choose the product they would be most likely to purchase of the three over a lot of iterations, and then store, calculate, and visually display the resulting data.
+BusMall wants a web app that shows potential products to individuals in focus groups, three products at a time (three images side by side in a row), so you'll need to manage the size and aspect ratio of the images, and may need to edit them a bit by cropping them (alternatively, you can set images' CSS background-size to "cover" or "contain").
 
-To keep the product selection process as untainted as possible, you have been instructed to not allow any results to be shown to the user until there have been a total of 25 selections made. Also, the marketing research team has asked that you not automatically display the results after 25 clicks, but instead to put two buttons on the page: one that allows the participant to view the results, and another that allows the participant to vote 10 more times.
+Your web page should show three randomly selected product images and let users select the product they'd be most likely to purchase out of the three images, then repeat for a total of 16 selections ("votes").
 
-The marketing team is not only interested in the total number of clicks, but also the percentage of times that an item was clicked when it was shown. So, you'll also need to keep track of how many times each image is displayed.
+To keep the marketing analysis unbiased, do not show voting results before all 16 votes have been cast; even after 16 votes, do not automatically show the results; instead, BusMall wants you to show two buttons on the page: one to show voting results, the other to let the user vote 8 more times then show results automatically after the 8th additional vote.<br>
+[**Today**: hide/show the two buttons, but implement the callback only for the "show results" button]<br>
+[**Tomorrow**: Implement the "8 more votes" button's callback.]
 
-You are also responsible for the look and feel of the app, so don't forget a custom font, color palette, layout with semantic HTML (and maybe a Skeleton or flexbox approach to layout) and so on.
+To show results, your app should show product votes as a histogram.<br>
+[**Today**: Draw the histogram using text characters, DOM elements (e.g., empty rectangles with a solid background color, whose size is proportional to the number of votes for its associated product), or a dynamically generated HTML table.]
+[**Tomorrow**: Draw the histogram using a &lt;canvas&gt; element and a graphics library.]
+
+BusMall is interested not only in the total number of votes, but also the percentage of times that an item was clicked when it was shown. Thus your app must also track of how many times each image has been displayed regardless of whether it was ever selected.
+
+[**Tomorrow**: BusMall also requires a professional-looking app, so use a custom font, color palette, layout with semantic HTML (and maybe flexbox, unsemantic, bootstrap, Skeleton, or other layout library). Choose aesthetically appealing style settings such as font size and weight, padding, borders, margins, etc.]
 
 # User Stories
 
-Part of your assignment today is to write your own user stories. Be sure to consider the multiple roles involved: the marketing research team, the developer, and the focus group participant who will be using the application. DO THIS STEP FIRST. The commit logs in your repo will have a first couple of commits for the scaffolding process, but next you should have a 'user stories' commit that is in place before any code is written.
+**DO THIS STEP FIRST**  Part of your assignment is to write your own user stories. Consider the multiple roles involved: marketing research team, developer, focus group user. The commit logs in your repo will have a few initial commits for the scaffolding process (LICENSE, README.md) but next, you should have a 'user stories' commit in place *before* you write any web app code.
 
-## Goals to complete by the end of Tuesday
+## Steps/features due end of Tuesday
 
-- Create a new repo for this weekly project called **bus-mall** at the root level of your *~/CF/201* directory.
-- Scaffold your repo with the usual README, CSS, JS, and HTML files, plus a *img/* directory.
-- Retrieve the assets from the *assets/* directory in the *week-03* directory of our class repo and place them in your image directory.
-- Write your user stories as described above and place them in a file called *user-stories.md* in your repo. Utilize good Markdown style to make this document look nice.
+- Create a new repo or folder for this weekly project called *bus-mall*.
+- Scaffold your repo with the usual README.md and LICENSE. Clone your repo and add an *img/* folder to your local workspace to hold product images.
+- Write the purpose of your app in README.md, then add your user stories, then git **a-c-p**. Use good Markdown style to make README.md look nice; use the Markdown Preview feature in Atom to help you in this task.
+- Populate your img/ folder with at least seven (7) images, then **a-c-p**.
+- Write code that randomly selects three images from img/, then display them "side by side by side" in the browser window. [**+1 Extra Credit** if you make your site responsive, such that the images are shown in a column when the browser viewport is narrow.]
+- Handle mouse clicks on displayed images, and track clicks and the "times displayed" count for each image.
+- When an image is clicked, show three new random images. Images can repeat -- the random selection process should pick randomly from the full set of images each time.
+- Write a constructor that creates an object associated with each image, and has these properties:
+ - Filename
+ - Product Name
+ - Number of times shown
+ - Number of times clicked
+- Include two hidden buttons, one to display votes, one to allow 8 more votes, and make the buttons visible after the 16th vote.
+- Implement the callback for the "display votes" button, which is a function that plots vote results.
 
-The thing you want to build today will select three random photos from the image directory and display them side by side by side in the browser window.
+# Submitting
 
-In addition, you'll want to be able to receive clicks on those displayed images, and track those clicks for each image. You'll also want to track how many times each image is displayed, for statistical purposes.
-
-Upon receiving a click, three new random images need to be displayed.
-
-To do this, you'll want a constructor function that creates an object associated with each image, and has properties for the name of the image, its filepath, the number of times it has been shown, and the number of times it has been clicked.
-
-# Submitting Your Assignment
-
+Use https://canvas.instructure.com/courses/1012436/assignments/4488793
 - Submit the GitHub URL for your commit hash.
-- Add a comment to this Canvas submission with answers to the following questions.
- - How did this go, overall?
- - What observations or questions do you have about what you've learned so far?
+- In a comment in this Canvas submission with answers to the following questions.
+ - How long did you take to do this lab?
+ - How did this go for you, overall?
+ - What observations or questions do you have on what you've learned so far?
