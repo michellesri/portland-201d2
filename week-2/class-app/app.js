@@ -16,7 +16,7 @@ var removeEl = document.getElementById('pRemove');
 var containerEl = removeEl.parentNode;
 containerEl.removeChild(removeEl);
 
-var clickTheButton = document.getElementById("cuteLittleButton");
+var clickTheButton = document.getElementById('cuteLittleButton');
 
 //eventListener and function for click event to add to ul
 clickTheButton.addEventListener("click", function() {
