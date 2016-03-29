@@ -1,15 +1,3 @@
-/*************************************
-*Basic Debug//Page controller example*
-*************************************/
-var debug = true;
-
-function cl(msg){
-  if (debug){
-    console.log(msg);
-  }
-}
-
-
 /************************************
         Functions to debug
 ************************************/
