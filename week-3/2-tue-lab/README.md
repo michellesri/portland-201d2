@@ -1,5 +1,5 @@
-## New week, new project!
 # BusMall
+## New week, new project!
 
 You're hired by a startup named BusMall, whose product is similar to the SkyMall catalog found in airplane seatback pockets, a catalog of assorted high-markup products provided to a captive audience seeking a mental escape from the drudgery of travel and nausea induced by jet fuel fumes. But in this case, BusMall catalogs are placed on Portland transit system buses (whose overall travel times are now comparable to cross-country flights, after all...).
 
@@ -29,8 +29,8 @@ BusMall is interested not only in the total number of votes, but also the percen
 
 - Create a new repo or folder for this weekly project called *bus-mall*.
 - Scaffold your repo with the usual README.md and LICENSE. Clone your repo and add an *img/* folder to your local workspace to hold product images.
-- Write the purpose of your app in README.md, then add your user stories, then git **a-c-p**. Use good Markdown style to make README.md look nice. Use the Markdown Preview feature (a live preview) in Atom to help you in this task.
-- Populate your img/ folder with at least seven (7) images.
+- Write the purpose of your app in README.md, then add your user stories, then git **a-c-p**. Use good Markdown style to make README.md look nice; use the Markdown Preview feature in Atom to help you in this task.
+- Populate your img/ folder with at least seven (7) images, then **a-c-p**.
 - Write code that randomly selects three images from img/, then display them "side by side by side" in the browser window. [**+1 Extra Credit** if you make your site responsive, such that the images are shown in a column when the browser viewport is narrow.]
 - Handle mouse clicks on displayed images, and track clicks and the "times displayed" count for each image.
 - When an image is clicked, show three new random images. Images can repeat -- the random selection process should pick randomly from the full set of images each time.
@@ -44,7 +44,9 @@ BusMall is interested not only in the total number of votes, but also the percen
 
 # Submitting
 
+Use https://canvas.instructure.com/courses/1012436/assignments/4488793
 - Submit the GitHub URL for your commit hash.
-- Add a comment to this Canvas submission with answers to the following questions.
- - How did this go, overall?
- - What observations or questions do you have about what you've learned so far?
+- In a comment in this Canvas submission with answers to the following questions.
+ - How long did you take to do this lab?
+ - How did this go for you, overall?
+ - What observations or questions do you have on what you've learned so far?
