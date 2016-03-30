@@ -52,7 +52,8 @@ BusMall is interested not only in the total number of votes, but also the percen
 
 # Submitting
 
-Use https://canvas.instructure.com/courses/1012436/assignments/4488793
+Use https://canvas.instructure.com/courses/1012436/assignments/4488793 for Tue lab.
+Use https://canvas.instructure.com/courses/1012436/assignments/4488786 for Wed lab.
 - Submit the GitHub URL for your commit hash.
 - In a comment in this Canvas submission with answers to the following questions.
  - How long did you take to do this lab?
