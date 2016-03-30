@@ -19,7 +19,7 @@ To show results, your app should show product votes as a histogram.<br>
 
 BusMall is interested not only in the total number of votes, but also the percentage of times that an item was clicked when it was shown. Thus your app must also track of how many times each image has been displayed regardless of whether it was ever selected.
 
-[**Wed**: BusMall wants a professional-looking app, so use a custom font(s), color palette, layout with semantic HTML (optionally use flexbox, unsemantic, bootstrap, Skeleton, or other layout library). Choose aesthetically appealing style settings such as font size and weight, padding, borders, margins, etc.]
+[**Due Sunday**: BusMall wants a professional-looking app, so use a custom font(s), color palette, layout with semantic HTML (optionally use flexbox, unsemantic, bootstrap, Skeleton, or other layout library). Choose aesthetically appealing style settings such as font size and weight, padding, borders, margins, etc.]
 
 # User Stories
 
