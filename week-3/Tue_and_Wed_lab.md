@@ -19,7 +19,34 @@ To show results, your app should show product votes as a histogram.<br>
 
 BusMall is interested not only in the total number of votes, but also the percentage of times that an item was clicked when it was shown. Thus your app must also track of how many times each image has been displayed regardless of whether it was ever selected.
 
-[**Due Sunday**: BusMall wants a professional-looking app, so use a custom font(s), color palette, layout with semantic HTML (optionally use flexbox, unsemantic, bootstrap, Skeleton, or other layout library). Choose aesthetically appealing style settings such as font size and weight, padding, borders, margins, etc.]
+**Breaking News** BusMall's marketing department received negative feedback from users who want to save their voting progress such that when they refresh the page or restart the browser, they can resume voting.
+
+[**Due Thurs**: Make your app persistent by saving app state in local storage. Persist the following data across page reloads and browser shutdown/launch cycles:
+- "Image displayed" and "image clicked" *counts*
+- Data that represents which three images are currently *visible*
+
+Load saved data when your app starts up, so that it "continues where it left off".]
+
+[**Due Sun nite**: BUT.. you are strongly encouraged to submit this lab before Sunday so you can focus on the 301 Entrance Exam and your Week 4 group project between 4/1 and 4/7:
+
+BusMall wants a great looking app, so...
+
+- Use a custom font(s), color palette, layout with semantic HTML (optionally use flexbox, unsemantic, bootstrap, Skeleton, or other layout library). Choose aesthetically appealing style settings such as font size and weight, padding, borders, margins, etc.
+- Add instructors for users who don't know how to use the app. Put instructions on a separate page or the same page.
+
+Also, BusMall loves **CSS animations**, and wants you to use them to make their site visually "pop". Technical requirements:
+
+Using CSS only, implement the following three features:
+- Use at least 3 different types of CSS animations (such as transitions, fade in/out the page or a section(s), slide the page or a section(s) in/out, rotate elements in 2-D, rotate elements in 3-D, etc.)
+- For at least one of your animations, use at least three @keyframes to repeat an animation, and use "alternate" for the animation direction.
+- Make at least one of your animationn repeat an "infinite" number of times.
+
+**+2 E.C.** Implement an "Easter Egg" in JS where the user can press the 'C' key to bring up a &lt;span&gt; in the footer of your page; the span should display a dynamically updated counter that counts the number of times your "inifinite" animation has repeated. Hint: Use an animation event listener that listens for the *end* of an animation event.
+
+**+1 E.C.** Make the span always appear in the lower right corner of the browser viewport no matter where the user scrolls on the page, and regardless of the browser window size.]
+
+**More E.C.*** due by the end of the course (Fri Apr 8):
+- Revisit your Week 1 and Week 2 web apps (Guessing Game and Pizza Shop) and adadd CSS animations that meet the above requirements. You'll earn **2 points E.C.** for each app that you "upgrade" with animations.
 
 # User Stories
 
