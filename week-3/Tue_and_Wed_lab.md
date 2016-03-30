@@ -43,11 +43,12 @@ BusMall is interested not only in the total number of votes, but also the percen
 - Implement the callback for the "display votes" button, which is a function that plots vote results.
 
 ## Steps/features due at the end of Wednesday
-- Hide the "show results" and "8 more votes" buttons right after the user clicks "show results", then draw the histogram. You should toggle the "visibility" CSS attribute, not "display" when showing/hiding buttons to avoid contents below the buttons from "jumping" vertically on each hide/show action.
-- After the histogram is drawn, show a button that lets the user start another round of votes (call this the "restart" button).
-- In the restart button's callback, reset enough state such that the user has the same experience in the subsequent round (same number of votes required to see results, same buttons shown/hidden, etc).
+- To display the histogram, use a &lt;canvas&gt; element(s) and a JS graphics library. Show a histogram of votes as a bar chart. Plot percentage values on the same chart (also as bars, or as text labels like "12%"), or plot them in a bar chart in a separate &lt;canvas&gt; element, whichever is easier. The size and look of your chart(s) is up to you, just be sure to put the chart in an area beneath the three images.
+- Hide the "show results" and "8 more votes" buttons immediately after the user clicks "show results", then draw the histogram. You should toggle the "visibility" CSS attribute of buttons, not the "display" attribute when showing/hiding buttons. This prevents contents below the buttons (say, a footer, or paragraph that you might place there) from "jumping" vertically on each hide/show action.
+- After the histogram is drawn, show (i.e., make visible) a button that lets the user start another round of votes (call this the "restart" button).
+- In the restart button's callback, reset enough app state such that the user will have the same experience in the subsequent voting round (the same number of votes should be required to see results, the same buttons should be shown/hidden, etc).
+- [**+1 Extra Credit**: *The following feature is required for Thursday's lab that uses the localStorage API, but if you implement this feature by end of Wed, you earn extra credit.* Accumulate long term statistics -- keep a "since this web page was loaded" set of statistics, including the total clicks per image and total views per image. For example, if a user goes through three 16-vote rounds, your histogram should show a total of 48 votes split between all images, and percentages should also be cumulative.
 - Implement a callback for the "8 more votes" button. It should hide all buttons first, then allow 8 more votes. After the 8th extra vote, automatically plot the vote histogram and show the "restart" button.
-- Using a &lt;canvas&gt; element and a graphics library, display the histogram of votes as a bar chart. Plot percentage values on the same chart or in separate &lt;canvas&gt; element. The size and look of your chart is up to you, just be sure to put the chart in an area beneath the three images.
 
 # Submitting
 
