@@ -89,7 +89,7 @@ Use https://canvas.instructure.com/courses/1012436/assignments/4488789 for the T
 
 Use https://canvas.instructure.com/courses/1012436/assignments/4488792 for the Fri lab due Sun 4/3.
 
-For both days' labs:
+For each day's lab:
 - Submit the GitHub URL for your commit hash.
 - In a comment in this Canvas submission with answers to the following questions.
  - How long did you take to do this lab?
