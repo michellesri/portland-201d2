@@ -20,16 +20,15 @@ txt.addEventListener('blur', function() {
   localStorage.coolStuff = arr;
 });
 
+localStorage.coolStuff = ['hat', 'gloves'];
+
 // JSON example for writing/reading a simple objects to/from localStorage
 G = {};
 G.pet = "Fido";
 G.age = 30;
 G.food = "lentils!";
-JSON.stringify(G);
 localStorage.G = JSON.stringify(G);
-var G_reloaded = JSON.parse(localStorage.G)
-
-localStorage.coolStuff = ['hat', 'gloves'];
+var G_reloaded = JSON.parse(localStorage.G);
 
 
 // Canvas context test
