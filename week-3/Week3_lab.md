@@ -68,17 +68,17 @@ In other words, load the saved data when your app starts up, so that your app "c
 - Use a custom font(s), color palette, layout, and semantic HTML. Optionally, you may want to use flexbox, Unsemantic, Bootstrap, Skeleton, or another layout system. Choose aesthetically appealing style settings such as font size and weight, padding, borders, margins, etc.
 - Add instructions for users who don't know how to use the app. You can put the instructions on a separate page, or the same page as the voting page.
 
-For animation, use mostly CSS and a small amount of HTML (and **no** JS) to implement the following features:
-- Use at least 3 types of CSS animations (such as transitions, fade in/out the page or a section(s), slide the page or a section(s) in/out, rotate elements in 2-D, rotate elements in 3-D, etc.) Using the same animation type on three DOM elements doesn't count - the animations must be of different types.
-- For at least one of your animations, use at least three @keyframe "points" to repeat an animation, and use "alternate" as the animation direction.
-- Make at least one of your animationn repeat an "infinite" number of times.
-
-**Up to +4 E.C.** Due by the end of the course on Fri April 8:
-- Revisit your Week 1 and Week 2 web apps (Guessing Game and Pizza Shop) and add CSS animations that meet the above three CSS animation requirements. You'll earn +2 points for each app that you "upgrade" with animations.
+For animation, use mostly CSS and a small amount of HTML (and **no** JS) to implement the following requirements:
+- R1. Use at least 3 types of CSS animations (such as transitions, fade in/out the page or a section(s), slide the page or a section(s) in/out, rotate elements in 2-D, rotate elements in 3-D, etc.) Using the same animation type on three DOM elements doesn't count - the animations must be of different types.
+- R2. For at least one of your animations, use at least three @keyframe "points" to repeat an animation, and use "alternate" as the animation direction.
+- R3. Make at least one of your animationn repeat an "infinite" number of times.
 
 **+2 E.C.** Implement an "Easter Egg" in JS where the user can press the 'C' key to toggle the visibility of a &lt;span&gt; in the footer of your page; the span must initially be invisible and stay invisible until it is toggled to be visible; the span should show a dynamically updated count of the number of times the "inifinite" animation loop has repeated. Update frequency: The count must update every time the animation repeats. *Hints: Add an event listener for a keypress and in that callback, filter the event for the 'C' key's keycode. Add an event listener for the **end** of an animation event.*
 
 **+1 E.C.** Make the span always appear in the lower right corner of the browser viewport no matter where the user scrolls on the page, and regardless of the browser window size.
+
+**Up to +4 E.C.** Due by the end of the course on Fri April 8:
+- Revisit your Week 1 and Week 2 web apps (Guessing Game and Pizza Shop) and add CSS animations that meet the above three CSS animation requirements R1 thru R3. You'll earn +2 points for each app that you "upgrade" with animations.
 
 # Submitting
 
