@@ -63,10 +63,10 @@ In other words, load the saved data when your app starts up, so that your app "c
 
 Resume features/cases
 
-|Stopping point|Mode to re-create|States to track|
+|User's exit point|Mode to recreate|States to track|
 |---|---|---|
 |Round's clicks<16|Continue voting|# of clicks so far, "normal vote" flag|
-|2 buttons shown|Show buttons|# clicks, buttons showing flag|
+|2 buttons shown|Show buttons|"buttons shown" flag|
 |"8 more", clicks<8|Continue 8more voting|# clicks, "8more" flag|
 |Chart shown|Show chart, "Vote again" button|"chart shown" mode|
 
