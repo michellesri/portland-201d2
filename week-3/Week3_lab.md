@@ -21,32 +21,11 @@ BusMall is interested not only in the total number of votes, but also the percen
 
 **Breaking News** BusMall's marketing department received negative feedback from users who want to save their voting progress such that when they refresh the page or restart the browser, they can resume voting.
 
-[**Due Thurs**: Make your app persistent by saving app state in local storage. Persist the following data across page reloads and browser shutdown/launch cycles:
-- "Image displayed" and "image clicked" *counts*
-- Data that represents which three images are currently *visible*
+[**Due Thurs**: Make your app persistent by saving app state in local storage. See details in the "Thursday" section below.]
 
-Load saved data when your app starts up, so that it "continues where it left off".]
+BusMall wants a great looking app, and wants you to use great styling, layout, and **CSS animations** to make their site visually "pop".
 
-[**Due Sun nite**: BUT.. you are strongly encouraged to submit this lab before Sunday so you can focus on the 301 Entrance Exam and your Week 4 group project between 4/1 and 4/7:
-
-BusMall wants a great looking app, so...
-
-- Use a custom font(s), color palette, layout with semantic HTML (optionally use flexbox, unsemantic, bootstrap, Skeleton, or other layout library). Choose aesthetically appealing style settings such as font size and weight, padding, borders, margins, etc.
-- Add instructors for users who don't know how to use the app. Put instructions on a separate page or the same page.
-
-Also, BusMall loves **CSS animations**, and wants you to use them to make their site visually "pop". Technical requirements:
-
-Using CSS only, implement the following three features:
-- Use at least 3 different types of CSS animations (such as transitions, fade in/out the page or a section(s), slide the page or a section(s) in/out, rotate elements in 2-D, rotate elements in 3-D, etc.)
-- For at least one of your animations, use at least three @keyframes to repeat an animation, and use "alternate" for the animation direction.
-- Make at least one of your animationn repeat an "infinite" number of times.
-
-**+2 E.C.** Implement an "Easter Egg" in JS where the user can press the 'C' key to toggle the visibility of a &lt;span&gt; in the footer of your page; the span should display a dynamically updated counter that shows the number of times your "inifinite" animation has repeated. *Hint: Use an animation event listener that listens for the end of an animation event.*
-
-**+1 E.C.** Make the span always appear in the lower right corner of the browser viewport no matter where the user scrolls on the page, and regardless of the browser window size.]
-
-**More E.C.*** due by the end of the course (Fri Apr 8):
-- Revisit your Week 1 and Week 2 web apps (Guessing Game and Pizza Shop) and adadd CSS animations that meet the above requirements. You'll earn **2 points E.C.** for each app that you "upgrade" with animations.
+[**Due Sun nite**: ...make your app look great with CSS layout and styling. See details below.]
 
 # User Stories
 
@@ -70,6 +49,7 @@ Using CSS only, implement the following three features:
 - Implement the callback for the "display votes" button, which is a function that plots vote results.
 
 ## Steps/features due at the end of Wednesday
+
 - To display the histogram, use a &lt;canvas&gt; element(s) and a JS graphics library. Show a histogram of votes as a bar chart. Plot percentage values on the same chart (also as bars, or as text labels like "12%"), or plot them in a bar chart in a separate &lt;canvas&gt; element, whichever is easier. The size and look of your chart(s) is up to you, just be sure to put the chart in an area beneath the three images.
 - Hide the "show results" and "8 more votes" buttons immediately after the user clicks "show results", then draw the histogram. You should toggle the "visibility" CSS attribute of buttons, not the "display" attribute when showing/hiding buttons. This prevents contents below the buttons (say, a footer, or paragraph that you might place there) from "jumping" vertically on each hide/show action.
 - After the histogram is drawn, show (i.e., make visible) a button that lets the user start another round of votes (call this the "restart" button).
@@ -78,13 +58,39 @@ Using CSS only, implement the following three features:
 - [**+1 Extra Credit**: *The following feature is required for Thursday's lab that uses the localStorage API, but if you implement this feature by end of Wed, you earn extra credit.* Accumulate long term statistics -- keep a "since this web page was loaded" set of statistics, including the total clicks per image and total views per image. For example, if a user goes through three 16-vote rounds, your histogram should show a total of 48 votes split between all images, and percentages should also be cumulative.]
 - [**+1 Extra Credit**: For any given vote, don't show an image in more than one &lt;img&gt; element.]
 
+## Steps/features due at the end of Thursday:
+Persist the following data across page reloads and browser shutdown/launch cycles:
+- "Image displayed" and "image clicked" *counts*
+- Data that represents which three images are currently *visible*
+
+Load saved data when your app starts up, so that it "continues where it left off".]
+
+## Steps/features due at the end of Sunday:
+
+*NOTE: You are **strongly** encouraged to submit this lab before Sunday so you can focus on the 301 Entrance Exam and your Week 4 group project in the coming week.*
+
+- Use a custom font(s), color palette, layout, and semantic HTML. Optionally, you may want to use flexbox, Unsemantic, Bootstrap, Skeleton, or another layout system. Choose aesthetically appealing style settings such as font size and weight, padding, borders, margins, etc.
+- Add instructions for users who don't know how to use the app. You can put the instructions on a separate page, or the same page as the voting page.
+
+For animation, use CSS only to implement the following features:
+- Use at least 3 types of CSS animations (such as transitions, fade in/out the page or a section(s), slide the page or a section(s) in/out, rotate elements in 2-D, rotate elements in 3-D, etc.) Using the same animation type on three DOM elements doesn't count - the animations must be of different types.
+- For at least one of your animations, use at least three @keyframe "points" to repeat an animation, and use "alternate" as the animation direction.
+- Make at least one of your animationn repeat an "infinite" number of times.
+
+**+2 E.C.** Implement an "Easter Egg" in JS where the user can press the 'C' key to toggle the visibility of a &lt;span&gt; in the footer of your page; the span should display a dynamically updated counter that shows the number of times your "inifinite" animation has repeated. *Hint: Add an event listener for a keypress and filter the event for the 'C' key's keycode, and add an event listener for the **end** of an animation event.*
+
+**+1 E.C.** Make the span always appear in the lower right corner of the browser viewport no matter where the user scrolls on the page, and regardless of the browser window size.]
+
+**More E.C.*** due by the end of the course (Fri April 8):
+- Revisit your Week 1 and Week 2 web apps (Guessing Game and Pizza Shop) and adadd CSS animations that meet the above requirements. You'll earn **2 points E.C.** for each app that you "upgrade" with animations.
+
 # Submitting
 
 Use https://canvas.instructure.com/courses/1012436/assignments/4488793 for the Tue lab.
 
 Use https://canvas.instructure.com/courses/1012436/assignments/4488786 for the Wed lab.
 
-Use https://canvas.instructure.com/courses/1012436/assignments/TBD for the Thr lab.
+Use https://canvas.instructure.com/courses/1012436/assignments/4488789 for the Thr lab.
 
 For both days' labs:
 - Submit the GitHub URL for your commit hash.
