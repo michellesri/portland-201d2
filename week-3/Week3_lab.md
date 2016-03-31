@@ -28,7 +28,6 @@ BusMall wants a great looking app, and wants you to use great styling, layout, a
 **DO THIS STEP FIRST**  Part of your assignment is to write your own user stories. Consider the multiple roles involved: marketing research team, developer, focus group user. The commit logs in your repo will have a few initial commits for the scaffolding process (LICENSE, README.md) but next, you should have a 'user stories' commit in place *before* you write any web app code.
 
 ## Steps/features due at the end of Tuesday
-
 - Create a new repo or folder for this weekly project called *bus-mall*.
 - Scaffold your repo with the usual README.md and LICENSE. Clone your repo and add an *img/* folder to your local workspace to hold product images.
 - Write the purpose of your app in README.md, then add your user stories, then git **a-c-p**. Use good Markdown style to make README.md look nice; use the Markdown Preview feature in Atom to help you in this task.
@@ -54,14 +53,14 @@ BusMall wants a great looking app, and wants you to use great styling, layout, a
 - [**+1 Extra Credit**: *The following feature is required for Thursday's lab that uses the localStorage API, but if you implement this feature by end of Wed, you earn extra credit.* Accumulate long term statistics -- keep a "since this web page was loaded" set of statistics, including the total clicks per image and total views per image. For example, if a user goes through three 16-vote rounds, your histogram should show a total of 48 votes split between all images, and percentages should also be cumulative.]
 - [**+1 Extra Credit**: For any given vote, don't show an image in more than one &lt;img&gt; element.]
 
-## Steps/features due at the end of Thursday:
+## Steps/features due at the end of Thursday
 Persist the following data across page reloads and browser shutdown/launch cycles:
 - "Image displayed" and "image clicked" *counts*
 - Data that represents which three images are currently *visible*
 
 Load saved data when your app starts up, so that it "continues where it left off".]
 
-## Steps/features due at the end of Sunday:
+## Steps/features due at the end of Sunday April 3
 
 *NOTE: You are **strongly** encouraged to submit this lab before Sunday so you can focus on the 301 Entrance Exam and your Week 4 group project in the coming week.*
 
