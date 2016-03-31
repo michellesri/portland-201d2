@@ -72,12 +72,12 @@ For animation, use CSS only to implement the following features:
 - For at least one of your animations, use at least three @keyframe "points" to repeat an animation, and use "alternate" as the animation direction.
 - Make at least one of your animationn repeat an "infinite" number of times.
 
+**Up to +4 E.C.*** Due by the end of the course on Fri April 8:
+- Revisit your Week 1 and Week 2 web apps (Guessing Game and Pizza Shop) and add CSS animations that meet the above three CSS animation requirements. You'll earn +2 points for each app that you "upgrade" with animations.
+
 **+2 E.C.** Implement an "Easter Egg" in JS where the user can press the 'C' key to toggle the visibility of a &lt;span&gt; in the footer of your page; the span should display a dynamically updated counter that shows the number of times your "inifinite" animation has repeated. *Hint: Add an event listener for a keypress and filter the event for the 'C' key's keycode, and add an event listener for the **end** of an animation event.*
 
 **+1 E.C.** Make the span always appear in the lower right corner of the browser viewport no matter where the user scrolls on the page, and regardless of the browser window size.]
-
-**More E.C.*** due by the end of the course (Fri April 8):
-- Revisit your Week 1 and Week 2 web apps (Guessing Game and Pizza Shop) and adadd CSS animations that meet the above requirements. You'll earn **2 points E.C.** for each app that you "upgrade" with animations.
 
 # Submitting
 
