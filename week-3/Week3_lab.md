@@ -91,7 +91,7 @@ Use https://canvas.instructure.com/courses/1012436/assignments/4488792 for the F
 
 For each day's lab:
 - Submit the GitHub URL for your commit hash.
-- In a comment in this Canvas submission with answers to the following questions.
+- In a comment in this Canvas submission with answers to the following questions:
  - How long did you take to do this lab?
  - How did this go for you, overall?
  - What observations or questions do you have on what you've learned so far?
