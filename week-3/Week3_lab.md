@@ -62,7 +62,7 @@ Load saved data when your app starts up, so that it "continues where it left off
 
 ## Steps/features due at the end of Sunday April 3
 
-*NOTE: You are **strongly** encouraged to submit this lab before Sunday so you can focus on the 301 Entrance Exam and your Week 4 group project in the coming week.*
+*NOTE: You are* **strongly** *encouraged to submit this lab before Sunday so you can focus on the 301 Entrance Exam and your Week 4 group project in the coming week.*
 
 - Use a custom font(s), color palette, layout, and semantic HTML. Optionally, you may want to use flexbox, Unsemantic, Bootstrap, Skeleton, or another layout system. Choose aesthetically appealing style settings such as font size and weight, padding, borders, margins, etc.
 - Add instructions for users who don't know how to use the app. You can put the instructions on a separate page, or the same page as the voting page.
