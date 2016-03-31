@@ -54,11 +54,12 @@ BusMall wants a great looking app, and wants you to use great styling, layout, a
 - [**+1 Extra Credit**: For any given vote, don't show an image in more than one &lt;img&gt; element.]
 
 ## Steps/features due at the end of Thursday
-Persist the following data across page reloads and browser shutdown/launch cycles:
+Persist the following data across page reloads and browser restart (a shutdown/launch cycle):
 - "Image displayed" and "image clicked" *counts*
 - Data that represents which three images are currently *visible*
+- All other data that your app needs to load to make it behave the same as if there was not a page reload or browser restart.
 
-Load saved data when your app starts up, so that it "continues where it left off".
+In other words, load the saved data when your app starts up, so that your app "continues where it left off".
 
 ## Steps/features due at the end of Sunday April 3
 
