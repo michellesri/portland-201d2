@@ -3,7 +3,8 @@
 ## Current/Future Days
 |Day|Category|Item|
 |---|---|---|
-|**Thr**|Lecture|- Code review [30 min]<br>- WRRC<br>- Review localStorage reading<br>- Brief demo on localStorage<br>- Review Thr lab assignment<br>- Combo lecture/mob coding<br> &nbsp; - HTML: text area<br> &nbsp; - JS: var<br> &nbsp; - JS:localStorage()<br> &nbsp; - Verify the app<br>|
+|**Thr**|Announcements|- 301 Entrace Exam terms/stats<br>- Final Project|
+|   |Lecture|- Code review [30 min]<br>- WRRC<br>- Review localStorage reading<br>- Brief demo on localStorage<br>- Review Thr lab assignment<br>- Combo lecture/mob coding<br> &nbsp; - HTML: text area<br> &nbsp; - JS: var<br> &nbsp; - JS:localStorage()<br> &nbsp; - Verify the app<br>|
 |   |Lab |BusMall w/ **localStorage**|
 |   |Project|Pitches I: Brainstorm and discuss|
 |**Fri**|Lecture|- Code review [30 min]<br>- Review CSS animations reading<br>- Review Fri lab assignment<br>- Combo lecture/mob coding [60 min]|
