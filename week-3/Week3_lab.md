@@ -58,7 +58,7 @@ Persist the following data across page reloads and browser shutdown/launch cycle
 - "Image displayed" and "image clicked" *counts*
 - Data that represents which three images are currently *visible*
 
-Load saved data when your app starts up, so that it "continues where it left off".]
+Load saved data when your app starts up, so that it "continues where it left off".
 
 ## Steps/features due at the end of Sunday April 3
 
@@ -67,7 +67,7 @@ Load saved data when your app starts up, so that it "continues where it left off
 - Use a custom font(s), color palette, layout, and semantic HTML. Optionally, you may want to use flexbox, Unsemantic, Bootstrap, Skeleton, or another layout system. Choose aesthetically appealing style settings such as font size and weight, padding, borders, margins, etc.
 - Add instructions for users who don't know how to use the app. You can put the instructions on a separate page, or the same page as the voting page.
 
-For animation, use CSS only to implement the following features:
+For animation, use mostly CSS and a small amount of HTML (and **no** JS) to implement the following features:
 - Use at least 3 types of CSS animations (such as transitions, fade in/out the page or a section(s), slide the page or a section(s) in/out, rotate elements in 2-D, rotate elements in 3-D, etc.) Using the same animation type on three DOM elements doesn't count - the animations must be of different types.
 - For at least one of your animations, use at least three @keyframe "points" to repeat an animation, and use "alternate" as the animation direction.
 - Make at least one of your animationn repeat an "infinite" number of times.
