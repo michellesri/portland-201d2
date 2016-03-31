@@ -19,13 +19,9 @@ To show results, your app should show product votes as a histogram.<br>
 
 BusMall is interested not only in the total number of votes, but also the percentage of times that an item was clicked when it was shown. Thus your app must also track of how many times each image has been displayed regardless of whether it was ever selected.
 
-**Breaking News** BusMall's marketing department received negative feedback from users who want to save their voting progress such that when they refresh the page or restart the browser, they can resume voting.
+**Breaking News** BusMall's marketing department received negative feedback from users who want to save their voting progress such that when they refresh the page or restart the browser, they can resume voting, ... [**Due Thurs**: ...so make your app persistent by saving app state in local storage. See details in the "Thursday" section below.]
 
-[**Due Thurs**: Make your app persistent by saving app state in local storage. See details in the "Thursday" section below.]
-
-BusMall wants a great looking app, and wants you to use great styling, layout, and **CSS animations** to make their site visually "pop".
-
-[**Due Sun nite**: ...make your app look great with CSS layout and styling. See details below.]
+BusMall wants a great looking app, and wants you to use great styling, layout, and **CSS animations** to make their site visually "pop", ... [**Due Sun nite**: ...so make your app look great with CSS layout and styling and CSS animations. See details in the "Sunday" section below.]
 
 # User Stories
 
