@@ -55,11 +55,20 @@ BusMall wants a great looking app, and wants you to use great styling, layout, a
 
 ## Steps/features due at the end of Thursday
 Persist the following data across page reloads and browser restart (a shutdown/launch cycle):
-- "Image displayed" and "image clicked" *counts*
+- "Image displayed" and "image clicked" *counts*. Continue to acculumate these across "Vote again" and reloads/restarts.
 - Data that represents which three images are currently *visible*
 - All other data that your app needs to load to make it behave the same as if there was not a page reload or browser restart.
 
 In other words, load the saved data when your app starts up, so that your app "continues where it left off".
+
+Resume features/cases
+
+|Stopping point|Mode to re-create|States to track|
+|---|---|---|
+|Round's clicks<16|Continue voting|# of clicks so far, "normal vote" flag|
+|2 buttons shown|Show buttons|# clicks, buttons showing flag|
+|"8 more", clicks<8|Continue 8more voting|# clicks, "8more" flag|
+|Chart shown|Show chart, "Vote again" button|"chart shown" mode|
 
 ## Steps/features due at the end of Sunday April 3
 
