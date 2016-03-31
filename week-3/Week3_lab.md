@@ -41,7 +41,7 @@ Using CSS only, implement the following three features:
 - For at least one of your animations, use at least three @keyframes to repeat an animation, and use "alternate" for the animation direction.
 - Make at least one of your animationn repeat an "infinite" number of times.
 
-**+2 E.C.** Implement an "Easter Egg" in JS where the user can press the 'C' key to bring up a &lt;span&gt; in the footer of your page; the span should display a dynamically updated counter that counts the number of times your "inifinite" animation has repeated. Hint: Use an animation event listener that listens for the *end* of an animation event.
+**+2 E.C.** Implement an "Easter Egg" in JS where the user can press the 'C' key to toggle the visibility of a &lt;span&gt; in the footer of your page; the span should display a dynamically updated counter that shows the number of times your "inifinite" animation has repeated. *Hint: Use an animation event listener that listens for the end of an animation event.*
 
 **+1 E.C.** Make the span always appear in the lower right corner of the browser viewport no matter where the user scrolls on the page, and regardless of the browser window size.]
 
@@ -80,9 +80,11 @@ Using CSS only, implement the following three features:
 
 # Submitting
 
-Use https://canvas.instructure.com/courses/1012436/assignments/4488793 for Tue lab.
+Use https://canvas.instructure.com/courses/1012436/assignments/4488793 for the Tue lab.
 
-Use https://canvas.instructure.com/courses/1012436/assignments/4488786 for Wed lab.
+Use https://canvas.instructure.com/courses/1012436/assignments/4488786 for the Wed lab.
+
+Use https://canvas.instructure.com/courses/1012436/assignments/TBD for the Thr lab.
 
 For both days' labs:
 - Submit the GitHub URL for your commit hash.
