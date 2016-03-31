@@ -77,7 +77,7 @@ For animation, use mostly CSS and a small amount of HTML (and **no** JS) to impl
 
 **+2 E.C.** Implement an "Easter Egg" in JS where the user can press the 'C' key to toggle the visibility of a &lt;span&gt; in the footer of your page; the span should display a dynamically updated counter that shows the number of times your "inifinite" animation has repeated. *Hint: Add an event listener for a keypress and filter the event for the 'C' key's keycode, and add an event listener for the **end** of an animation event.*
 
-**+1 E.C.** Make the span always appear in the lower right corner of the browser viewport no matter where the user scrolls on the page, and regardless of the browser window size.]
+**+1 E.C.** Make the span always appear in the lower right corner of the browser viewport no matter where the user scrolls on the page, and regardless of the browser window size.
 
 # Submitting
 
