@@ -87,6 +87,8 @@ Use https://canvas.instructure.com/courses/1012436/assignments/4488786 for the W
 
 Use https://canvas.instructure.com/courses/1012436/assignments/4488789 for the Thr lab.
 
+Use https://canvas.instructure.com/courses/1012436/assignments/4488792 for the Fri lab due Sun 4/3.
+
 For both days' labs:
 - Submit the GitHub URL for your commit hash.
 - In a comment in this Canvas submission with answers to the following questions.
