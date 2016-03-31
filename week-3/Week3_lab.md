@@ -76,7 +76,7 @@ For animation, use mostly CSS and a small amount of HTML (and **no** JS) to impl
 **Up to +4 E.C.** Due by the end of the course on Fri April 8:
 - Revisit your Week 1 and Week 2 web apps (Guessing Game and Pizza Shop) and add CSS animations that meet the above three CSS animation requirements. You'll earn +2 points for each app that you "upgrade" with animations.
 
-**+2 E.C.** Implement an "Easter Egg" in JS where the user can press the 'C' key to toggle the visibility of a &lt;span&gt; in the footer of your page; the span should display a dynamically updated counter that shows the number of times your "inifinite" animation has repeated. *Hint: Add an event listener for a keypress and filter the event for the 'C' key's keycode, and add an event listener for the **end** of an animation event.*
+**+2 E.C.** Implement an "Easter Egg" in JS where the user can press the 'C' key to toggle the visibility of a &lt;span&gt; in the footer of your page; the span must initially be invisible and stay invisible until it is toggled to be visible; the span should show a dynamically updated count of the number of times the "inifinite" animation loop has repeated. Update frequency: The count must update every time the animation repeats. *Hints: Add an event listener for a keypress and in that callback, filter the event for the 'C' key's keycode. Add an event listener for the **end** of an animation event.*
 
 **+1 E.C.** Make the span always appear in the lower right corner of the browser viewport no matter where the user scrolls on the page, and regardless of the browser window size.
 
