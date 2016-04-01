@@ -1,0 +1,66 @@
+1. Suppose in one of your local git workspaces you've changed a file called app.js, but haven't added or committed the file, and you no longer want to keep those changes. Which of the following commands will discard your changes and give you the more recently commited version of the file?
+  A. git reset --mod app.js
+  B. git reset --discard app.js
+  C. git revert app.js
+  D. git revert --latest app.js
+  E. git checkout app.js
+  F. git checkout --reload app.js
+  G. None of the above
+
+2. If you have local changes in your git workspace that you haven't committed and you do "git pull", what happens?
+  A. You get an error and the merge fails.
+  B. You get a successful pull when there are no merge conflicts.
+  C. You get prompted with "Warning: Merge conflict. Do you want to store your local changes on a temporary branch?" and if you answer 'yes', the merge succeeds.
+  D. You get prompted with "Warning: Merge conflict. Do you want to commit your local changes?" and if you answer 'yes', the merge succeeds.
+  E. If your changes are more recent than the changes in the repo, the merge succeeds, but your changes take priority over the remote repo's changes.
+  F. None of the above
+
+3. Given an index.html that includes the following snippet of code:
+
+  <body>
+    <h1>My Cool App</h1>
+    <div>
+      Outer
+      <p>Inner p</p>
+      <div>Inner div</div>
+    </div>
+  </body>
+
+and assuming index.html also includes app.css as its only means of styling the elements above, if app.css contains only the following lines, what is the visual effect seen in the browser? Assume the default font text color is black and the default font famly is serif when no styling is specified in the web app.
+
+  body {
+    color: blue;
+    font-family: sans-serif;
+  }
+
+  A. H1 text is blue but all other text remains black, and the font family of all text is sans-serif due to font family inheritance.
+  B. No text's color or font family is changed from the default because those properties are not inherited by the body element's descendants.
+  C. H1 text is blue and has font family sans-serif, while all other text is black and has a font family serif.
+  D. All text turns blue and all text has font family sans-serif due to property inheritance.
+  E. H1 text and "Outer" turns blue and has font family sans-serif, while "Inner p" and "Inner div" stay at defaults because inheritanceapplies to body's immediate children, not further descendants.a
+  F. No color or font family changes because those properties are not inherited by body's descendant nodes.
+  G. None of the above
+
+Which of the following CSS declarations will change "Inner p" in the HTML above (in #3) to have a green background color?
+  A. body > p { background-color: green; }
+  B. div#p    { background-color: green; }
+  C. body + p { background-color: green; }
+  D. div > p  { background-color: green; }
+  E. body ~ p { background-color: green; }
+  F. div ~ p  { background-color: green; }
+  G. None of the above
+
+Most of the HTML tags below are self-closing. Which tag is the exception (i.e., which tag needs a closing tag for proper HTML syntax)?
+  A. input
+  B. br
+  C. meta
+  D. hr
+  E. li
+  F. link
+  G. None of the above -- all tags (A thru F) are self-closing.
+
+CSS inheritence
+
+HTML forms: <input ...>, <submit ... >, <formset
+
+OOP: inheritance, constructors
