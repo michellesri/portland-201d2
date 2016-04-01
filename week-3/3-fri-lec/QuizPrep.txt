@@ -59,8 +59,10 @@ Most of the HTML tags below are self-closing. Which tag is the exception (i.e., 
   F. link
   G. None of the above -- all tags (A thru F) are self-closing.
 
-CSS inheritence
 
-HTML forms: <input ...>, <submit ... >, <formset
+CSS inheritance, layout
 
-OOP: inheritance, constructors
+HTML forms: <input ...>, <submit ... >
+
+OOP: inheritance, constructors, methods
+
