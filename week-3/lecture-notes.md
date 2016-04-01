@@ -3,13 +3,24 @@
 ## Current/Future Days
 |Day|Category|Item|
 |---|---|---|
-|**Thr**|Announcements|- 301 Entrace Exam terms/stats<br>- Final Project|
-|   |Lecture|- Code review [30 min]<br>- WRRC<br>- Review localStorage reading<br>- Brief demo on localStorage<br>- Review Thr lab assignment<br>- Combo lecture/mob coding<br> &nbsp; - HTML: text area<br> &nbsp; - JS: var<br> &nbsp; - JS:localStorage()<br> &nbsp; - Verify the app<br>|
-|   |Lab |BusMall w/ **localStorage**|
-|   |Project|Pitches I: Brainstorm and discuss|
-|**Fri**|Lecture|- Code review [30 min]<br>- Review CSS animations reading<br>- Review Fri lab assignment<br>- Combo lecture/mob coding [60 min]|
-|   |Lab |BusMall w/ **CSS animations**|
-|   |Project|Pitches II: Set project teams|
+|**Fri**|Announcements|- Week 3 survey<br>- 301 entrance exam<br>- No reading assignment|
+|   |Lecture|- Code review (45 min)<br>- jQuery Preview (30 min)<br>[*Break*] (5 min)<br>- Final project overview (30 mins)<br>- Project pitches (30 min)<br>- Project preferences (5 min)<br>[*Break*] (10 min)<br>- Review Fri lab assignment (10 min) <br>- Review CSS animations / demo code (15 min)|
+|   |Lab |BusMall w/ **styling &amp; CSS animations**|
+|   |Project|Set project teams, wireframes|
+
+### Project Pitches
+
+(make a list of pitched projects here)
+
+---
+
+### Final Project Overview
+
+- Go over the final project description
+- Discuss GitHub workflow in teams
+- GitHub Issues, Trello, waffle.io
+
+
 
 ## Past
 |Day|Category|Item|
@@ -24,3 +35,7 @@
 |   |Lecture|- Code review [30 min]<br>- Review &lt;canvas&gt;, chart.js, show highcharts.js<br>- PDX-201d1 project demos<br>- Review Wed lab assignment|
 |   |Mob Coding|- Add &lt;canvas&gt;<br>- &lt;script&gt; for graphics JS lib<br>-Draw bar chart with one product's vote count<br>-Add label for one product's click percentage<br>- Reset button &amp; non-persistent stats|
 |   |Lab |BusMall w/ **2nd callback, &lt;canvas&gt;, chart.js**|
+|**Thr**|Announcements|- 301 Entrace Exam terms/stats<br>- Final Project|
+|   |Lecture|- Code review [30 min]<br>- WRRC<br>- Review localStorage reading<br>- Brief demo on localStorage<br>- Review Thr lab assignment<br>- Combo lecture/mob coding<br> &nbsp; - HTML: text area<br> &nbsp; - JS: var<br> &nbsp; - JS:localStorage()<br> &nbsp; - Verify the app<br>|
+|   |Lab |BusMall w/ **localStorage**|
+|   |Project|Pitches I: Brainstorm and discuss|
