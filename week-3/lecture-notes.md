@@ -1,28 +1,5 @@
 # Week 3 Plan
 
-## Current/Future Days
-|Day|Category|Item|
-|---|---|---|
-|**Fri**|Announcements|- Week 3 survey<br>- 301 entrance exam<br>- No reading assignment|
-|   |Lecture|- Code review (45 min)<br>- jQuery Preview (30 min)<br>[*Break*] (5 min)<br>- Final project overview (30 mins)<br>- Project pitches (30 min)<br>- Project preferences (5 min)<br>[*Break*] (10 min)<br>- Review Fri lab assignment (10 min) <br>- Review CSS animations / demo code (15 min)|
-|   |Lab |BusMall w/ **styling &amp; CSS animations**|
-|   |Project|Set project teams, wireframes|
-
-### Project Pitches
-
-(make a list of pitched projects here)
-
----
-
-### Final Project Overview
-
-- Go over the final project description
-- Discuss GitHub workflow in teams
-- GitHub Issues, Trello, waffle.io
-
-
-
-## Past
 |Day|Category|Item|
 |---|---|---|
 |**Mon**|Lecture|- Announcements<br>- Go over student surveys [15 min]<br>- Whiteboard quadrants [10 min]<br>- Code Review [30 min]<br>- Break [5 min]<br>- Chrome Dev Tools -- review and Call Stack<br>- Hoisting/scope Part I [30 min]<br>- Review Mon lab assignment [5 min]<br>- Combo lecture/mob coding [60 min]|
@@ -39,3 +16,7 @@
 |   |Lecture|- Code review [30 min]<br>- WRRC<br>- Review localStorage reading<br>- Brief demo on localStorage<br>- Review Thr lab assignment<br>- Combo lecture/mob coding<br> &nbsp; - HTML: text area<br> &nbsp; - JS: var<br> &nbsp; - JS:localStorage()<br> &nbsp; - Verify the app<br>|
 |   |Lab |BusMall w/ **localStorage**|
 |   |Project|Pitches I: Brainstorm and discuss|
+|**Fri**|Announcements|- Week 3 survey<br>- 301 entrance exam<br>- No reading assignment|
+|   |Lecture|- Code review (45 min)<br>- jQuery Preview (30 min)<br>[*Break*] (5 min)<br>- Final project overview (30 mins)<br>- Project pitches (30 min)<br>- Project preferences (5 min)<br>[*Break*] (10 min)<br>- Review Fri lab assignment (10 min) <br>- Review CSS animations / demo code (15 min)|
+|   |Lab |BusMall w/ **styling &amp; CSS animations**|
+|   |Project|Set project teams, start wireframes|
