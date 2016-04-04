@@ -25,8 +25,8 @@ btnMore.addEventListener('click', more);
 btnNew.addEventListener('click', hnew);
 
 /////// Data, mostly ///////
-var voteThresh1 =  4;
-var voteThresh2 =  3 + voteThresh1;
+var voteThresh1 = 16;
+var voteThresh2 =  8 + voteThresh1;
 var names   = ['Holm',     'Tate',     'Rousey',  'Jones',
                'McGregor', 'Rockhold', 'Winslow', 'McCarthy'];
 var nameMap  = [], fighters = [];
