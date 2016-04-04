@@ -1,7 +1,7 @@
-# Week 3 Plan
+# Week 4 Plan
 
 |Day|Category|Item|
-|---|
+|---|---|---|
 |**Mon**|Lab|Planning: proposals, scaffolding|
 |**Tue**|Announcements|- 301 entrance criteria<br>- 301 prework & 301 reading for Day 2<br>- Project status/pitch 4 pm, proposals|
 |   |Week 3 review|- Student surveys [15 min]<br>- Bus Mall interactive review: [40 min]<br>- Whiteboard quadrants [10 min]|
