@@ -4,10 +4,10 @@ function gebi(id) { return document.getElementById(id); }
 function setBtnViz(a, b, c) {
   btnShow.style.visibility = viz[a];
   btnMore.style.visibility = viz[b];
-  btnNew.style.visibility  = viz[c];
+  btnNew.style.visibility = viz[c];
   localStorage.btnShow = a;
   localStorage.btnMore = b;
-  localStorage.btnNew  = c;
+  localStorage.btnNew = c;
 }
 
 var viz = ['hidden', 'visible'];
@@ -27,18 +27,18 @@ btnNew.addEventListener('click', hnew);
 /////// Data, mostly ///////
 var voteThresh1 = 16;
 var voteThresh2 =  8 + voteThresh1;
-var names   = ['Holm',     'Tate',     'Rousey',  'Jones',
-               'McGregor', 'Rockhold', 'Winslow', 'McCarthy'];
+var names = ['Holm', 'Tate', 'Rousey', 'Jones',
+             'McGregor', 'Rockhold', 'Winslow', 'McCarthy'];
 var nameMap  = [], fighters = [];
 var roundClicks, totalClicks, blockVote;
 
 function fighter() {
   this.nDisp = 0;
-  this.nSel  = 0;
+  this.nSel = 0;
 }
 
 function makeFighters() {
-  for (var ii=0; ii < names.length; ii++) {
+  for (var ii = 0; ii < names.length; ii++) {
     fighters.push(new fighter());
     nameMap.push([ii, names[ii]]);
   }
@@ -52,12 +52,13 @@ function loadImg(pool, ide) { // "ide" = image DOM element
   var idx = pool[pIdx][0];
   ide.idx = idx;
   fighters[idx].nDisp++;
+  localStorage.stats = JSON.stringify(fighters);
   pool.splice(pIdx, 1);
 }
 
 function loadImages() { // ide = image DOM element
   nameMap_copy = nameMap.slice(); // Reduce copy as imgs are shown (+1 EC, end of Wed)
-  for (var ii=0; ii < domIm.length; ii++) { loadImg(nameMap_copy, domIm[ii]); }
+  for (var ii = 0; ii < domIm.length; ii++) { loadImg(nameMap_copy, domIm[ii]); }
   localStorage.idx1 = im1.idx;
   localStorage.idx2 = im2.idx;
   localStorage.idx3 = im3.idx;
@@ -71,10 +72,12 @@ function setBlockVote(b) {
 function vote(ev) {
   if (blockVote) return;
 
-  roundClicks++;  localStorage.roundClicks = roundClicks;
-  totalClicks++;  localStorage.totalClicks = totalClicks;
+  roundClicks++; localStorage.roundClicks = roundClicks;
+  totalClicks++; localStorage.totalClicks = totalClicks;
 
   fighters[ev.target.idx].nSel++;
+  localStorage.stats = JSON.stringify(fighters);
+
   if (roundClicks == voteThresh1) {
     setBlockVote(true);
     setBtnViz(1, 1, 0);
@@ -89,22 +92,15 @@ function vote(ev) {
 }
 
 function dump() { // Print vote stats
-  localStorage.chart = true;
   chart.innerHTML = '';
-  var nSel_dump = [];
-  var nDisp_dump = [];
-
-  for (var ii=0; ii < fighters.length; ii++) {
-    var votes = fighters[ii].nSel;
-    var shows = fighters[ii].nDisp;
-    nSel_dump.push(votes);
-    nDisp_dump.push(shows);
-    var p = 0;
-    if (votes)  p = Math.round(100 * votes / fighters[ii].nDisp, 1);
-    chart.innerHTML += names[ii] + ': ' + votes + ' votes, ' + shows + ' shows (' + p + '%)<br>';
+  for (var ii = 0; ii < fighters.length; ii++) {
+    var v = fighters[ii].nSel; // votes
+    var s = fighters[ii].nDisp; // shown
+    var p = 0; // percent
+    if (v) p = Math.round(100 * v/s, 1);
+    chart.innerHTML += names[ii] + ': ' + v + ' votes, ' + s + ' shows (' + p + '%)<br>';
   }
-  localStorage.nSel  = nSel_dump;
-  localStorage.nDisp = nDisp_dump;
+  localStorage.chart = true;
 }
 
 // Button click handlers
@@ -129,35 +125,35 @@ function hnew() {
   setBlockVote(false);
 }
 
+function initIde(ide, lsIdx) {
+  ide.idx = lsIdx;
+  ide.setAttribute('src', 'img/' + nameMap[ide.idx][1] + '.jpg');
+}
+
 (function() { // This is an IIFE
   makeFighters();
-  if (typeof localStorage.totalClicks != 'undefined') {
+  if (typeof localStorage.btnShow != 'undefined') {
     setBtnViz(localStorage.btnShow, localStorage.btnMore, localStorage.btnNew);
-    blockVote   = JSON.parse(localStorage.blockVote);
+    blockVote = JSON.parse(localStorage.blockVote);
     roundClicks = localStorage.roundClicks;
     totalClicks = localStorage.totalClicks;
-    im1.idx = localStorage.idx1;
-    im2.idx = localStorage.idx2;
-    im3.idx = localStorage.idx3;
-    im1.setAttribute('src', 'img/' + nameMap[im1.idx][1] + '.jpg');
-    im2.setAttribute('src', 'img/' + nameMap[im2.idx][1] + '.jpg');
-    im3.setAttribute('src', 'img/' + nameMap[im3.idx][1] + '.jpg');
 
-    if (typeof localStorage.nSel_dump != null) {
-      var nSel_dump  = JSON.parse('['+localStorage.nSel +']');
-      var nDisp_dump = JSON.parse('['+localStorage.nDisp+']');
-      for (var ii=0; ii < fighters.length; ii++) {
-         fighters[ii].nSel  = nSel_dump[ii];
-         fighters[ii].nDisp = nDisp_dump[ii];
-      }
+    initIde(im1, localStorage.idx1);
+    initIde(im2, localStorage.idx2);
+    initIde(im3, localStorage.idx3);
+
+    if (typeof localStorage.stats != 'undefined') {
+      fighters = JSON.parse(localStorage.stats);
     }
-    if (localStorage.chart != "false") { show(); }
+    if (localStorage.chart != 'false') { show(); }
   }
 
   else {
+    setBtnViz(0,0,0);
     setBlockVote(false);
-    roundClicks =  0;
-    totalClicks =  0;
+    localStorage.chart = false;
+    roundClicks = 0; localStorage.roundClicks = roundClicks;
+    totalClicks = 0; localStorage.totalClicks = totalClicks;
     loadImages();
   }
 })();
