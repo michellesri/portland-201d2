@@ -43,7 +43,7 @@ function show() { // Show vote results
   localStorage.roundClicks = roundClicks;
 }
 
-//===== Data, mostly =====
+//===== Data Model =====
 var voteThresh1 = 16;
 var voteThresh2 =  8 + voteThresh1;
 var names = ['Holm', 'Tate', 'Rousey', 'Jones',
@@ -51,7 +51,7 @@ var names = ['Holm', 'Tate', 'Rousey', 'Jones',
 var nameMap  = [], fighters = [];
 var roundClicks, blockVote;
 
-function fighter() {
+function fighter() { // Leave names in separate array (less mem)
   this.nDisp = 0;
   this.nSel = 0;
 }
