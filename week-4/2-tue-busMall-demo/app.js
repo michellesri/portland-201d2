@@ -126,7 +126,7 @@ function initIde(ide, lsIdx, cap) {
   if (typeof localStorage.btnShow != 'undefined') {
     setBtnViz(localStorage.btnShow, localStorage.btnMore, localStorage.btnNew);
     blockVote = JSON.parse(localStorage.blockVote);
-    roundClicks = localStorage.roundClicks;
+    roundClicks = JSON.parse(localStorage.roundClicks);
 
     initIde(im1, localStorage.idx1, cap1);
     initIde(im2, localStorage.idx2, cap2);
