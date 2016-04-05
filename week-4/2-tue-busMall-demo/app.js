@@ -16,6 +16,7 @@ var btnShow = gebi('show');
 var btnMore = gebi('more');
 var btnNew  = gebi('new');
 var chart   = gebi('chart');
+var caps = [gebi('cap1'), gebi('cap2'), gebi('cap3')];
 
 im1.addEventListener('click', vote);
 im2.addEventListener('click', vote);
@@ -64,19 +65,20 @@ function makeFighters() {
 }
 
 //===== View logic ======
-function loadImg(pool, ide) { // "ide" = image DOM element
+function loadImg(pool, ide, cap) { // "ide" = image DOM element
   var pIdx = Math.floor(Math.random() * pool.length);
   ide.setAttribute('src', 'img/' + pool[pIdx][1] + '.jpg');
+  cap.textContent = pool[pIdx][1];
   var idx = pool[pIdx][0];
   ide.idx = idx;
   fighters[idx].nDisp++;
   localStorage.stats = JSON.stringify(fighters);
-  pool.splice(pIdx, 1);
+  pool.splice(pIdx, 1); // Wed's "+1 EC": splice as imgs are shown
 }
 
-function loadImages() { // ide = image DOM element
-  nmTmp = nameMap.slice(); // Wed's "+1 EC": spice as imgs are shown
-  for (var ii = 0; ii < domIm.length; ii++) loadImg(nmTmp, domIm[ii]);
+function loadImages() {
+  nmTmp = nameMap.slice();
+    for (var ii = 0; ii < domIm.length; ii++) loadImg(nmTmp, domIm[ii], caps[ii]);
   localStorage.idx1 = im1.idx;
   localStorage.idx2 = im2.idx;
   localStorage.idx3 = im3.idx;

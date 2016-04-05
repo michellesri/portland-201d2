@@ -15,3 +15,13 @@ img {
 button {
   visibility: hidden;
 }
+
+.wrap {
+  width: 310px;
+  display: inline-block;
+  text-align: center;
+}
+
+.cap {
+  display: inline-block;
+}
