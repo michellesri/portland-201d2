@@ -120,9 +120,10 @@ function dump() { // Print vote stats
 }
 
 //===== Init. Load from localStorage if available
-function initIde(ide, lsIdx) {
+function initIde(ide, lsIdx, cap) {
   ide.idx = lsIdx;
   ide.setAttribute('src', 'img/' + nameMap[ide.idx][1] + '.jpg');
+  cap.textContent = names[lsIdx];
 }
 
 (function() { // This is an IIFE
@@ -132,9 +133,9 @@ function initIde(ide, lsIdx) {
     blockVote = JSON.parse(localStorage.blockVote);
     roundClicks = localStorage.roundClicks;
 
-    initIde(im1, localStorage.idx1);
-    initIde(im2, localStorage.idx2);
-    initIde(im3, localStorage.idx3);
+    initIde(im1, localStorage.idx1, cap1);
+    initIde(im2, localStorage.idx2, cap2);
+    initIde(im3, localStorage.idx3, cap3);
 
     if (typeof localStorage.stats != 'undefined')
       fighters = JSON.parse(localStorage.stats);
