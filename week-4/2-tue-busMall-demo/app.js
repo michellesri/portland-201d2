@@ -1,4 +1,4 @@
-/////// DOM stuff & localStorage related to DOM state ///////
+//===== DOM & localStorage related to DOM state =====
 function gebi(id) { return document.getElementById(id); }
 
 function setBtnViz(a, b, c) {
@@ -20,17 +20,36 @@ var chart   = gebi('chart');
 im1.addEventListener('click', vote);
 im2.addEventListener('click', vote);
 im3.addEventListener('click', vote);
-btnShow.addEventListener('click', show);
-btnMore.addEventListener('click', more);
-btnNew.addEventListener('click', hnew);
 
-/////// Data, mostly ///////
+btnShow.addEventListener('click', show);
+btnMore.addEventListener('click', function() { // Extend vote
+  setBtnViz(0, 0, 0);
+  setBlockVote(false);
+  loadImages();
+});
+
+btnNew.addEventListener('click', function() { // New voting round
+  setBtnViz(0, 0, 0);
+  chart.innerHTML = ''; // Clear chart
+  localStorage.chart = false;
+  loadImages();
+  setBlockVote(false);
+});
+
+function show() { // Show vote results
+  dump();
+  setBtnViz(0, 0, 1);
+  roundClicks = 0;
+  localStorage.roundClicks = roundClicks;
+}
+
+//===== Data, mostly =====
 var voteThresh1 = 16;
 var voteThresh2 =  8 + voteThresh1;
 var names = ['Holm', 'Tate', 'Rousey', 'Jones',
              'McGregor', 'Rockhold', 'Winslow', 'McCarthy'];
 var nameMap  = [], fighters = [];
-var roundClicks, totalClicks, blockVote;
+var roundClicks, blockVote;
 
 function fighter() {
   this.nDisp = 0;
@@ -44,10 +63,9 @@ function makeFighters() {
   }
 }
 
-function randIdx(scale) { return Math.floor(Math.random() * scale); }
-
+//===== View logic ======
 function loadImg(pool, ide) { // "ide" = image DOM element
-  var pIdx = randIdx(pool.length);
+  var pIdx = Math.floor(Math.random() * pool.length);
   ide.setAttribute('src', 'img/' + pool[pIdx][1] + '.jpg');
   var idx = pool[pIdx][0];
   ide.idx = idx;
@@ -57,8 +75,8 @@ function loadImg(pool, ide) { // "ide" = image DOM element
 }
 
 function loadImages() { // ide = image DOM element
-  nameMap_copy = nameMap.slice(); // Reduce copy as imgs are shown (+1 EC, end of Wed)
-  for (var ii = 0; ii < domIm.length; ii++) { loadImg(nameMap_copy, domIm[ii]); }
+  nmTmp = nameMap.slice(); // Wed's "+1 EC": spice as imgs are shown
+  for (var ii = 0; ii < domIm.length; ii++) loadImg(nmTmp, domIm[ii]);
   localStorage.idx1 = im1.idx;
   localStorage.idx2 = im2.idx;
   localStorage.idx3 = im3.idx;
@@ -73,8 +91,6 @@ function vote(ev) {
   if (blockVote) return;
 
   roundClicks++; localStorage.roundClicks = roundClicks;
-  totalClicks++; localStorage.totalClicks = totalClicks;
-
   fighters[ev.target.idx].nSel++;
   localStorage.stats = JSON.stringify(fighters);
 
@@ -83,8 +99,6 @@ function vote(ev) {
     setBtnViz(1, 1, 0);
   }
   else if (roundClicks == voteThresh2) {
-// TODO: If "new button" was clicked, don't progress
-
     setBlockVote(true);
     show();
   }
@@ -103,28 +117,7 @@ function dump() { // Print vote stats
   localStorage.chart = true;
 }
 
-// Button click handlers
-function show() {
-  dump();
-  setBtnViz(0, 0, 1);
-  roundClicks = 0;
-  localStorage.roundClicks = roundClicks;
-}
-
-function more() {
-  setBtnViz(0, 0, 0);
-  setBlockVote(false);
-  loadImages();
-}
-
-function hnew() {
-  setBtnViz(0, 0, 0);
-  chart.innerHTML = '';
-  localStorage.chart = false;
-  loadImages();
-  setBlockVote(false);
-}
-
+//===== Init. Load from localStorage if available
 function initIde(ide, lsIdx) {
   ide.idx = lsIdx;
   ide.setAttribute('src', 'img/' + nameMap[ide.idx][1] + '.jpg');
@@ -136,24 +129,21 @@ function initIde(ide, lsIdx) {
     setBtnViz(localStorage.btnShow, localStorage.btnMore, localStorage.btnNew);
     blockVote = JSON.parse(localStorage.blockVote);
     roundClicks = localStorage.roundClicks;
-    totalClicks = localStorage.totalClicks;
 
     initIde(im1, localStorage.idx1);
     initIde(im2, localStorage.idx2);
     initIde(im3, localStorage.idx3);
 
-    if (typeof localStorage.stats != 'undefined') {
+    if (typeof localStorage.stats != 'undefined')
       fighters = JSON.parse(localStorage.stats);
-    }
+
     if (localStorage.chart != 'false') { show(); }
   }
-
   else {
     setBtnViz(0,0,0);
     setBlockVote(false);
     localStorage.chart = false;
     roundClicks = 0; localStorage.roundClicks = roundClicks;
-    totalClicks = 0; localStorage.totalClicks = totalClicks;
     loadImages();
   }
 })();
