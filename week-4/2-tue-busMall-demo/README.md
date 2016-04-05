@@ -1,5 +1,5 @@
 # Bus
-This is one possible implementation of the "Bus Mall" web application described in [https://github.com/codefellows/portland-201d2/blob/master/week-3/Week3_lab.md] This app satisfies the "display 3 unique images for each vote" extra credit item, but omits styling, CSS transitions, and user instruction text content; this version focuses on JS logic including logic for localStorage.
+This is one possible implementation of the "Bus Mall" web application described in [https://github.com/codefellows/portland-201d2/blob/master/week-3/Week3_lab.md] This app satisfies the "display 3 unique images for each vote" extra credit item, but omits styling, CSS transitions, and user instruction text content; this version focuses on JS logic, including logic for localStorage.
 
 ## Attributions
 ### Image Sources
